@@ -1,0 +1,3244 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: IgnitionDeck Commerce\n"
+"POT-Creation-Date: 2015-06-10 10:39-0500\n"
+"PO-Revision-Date: 2015-06-10 10:39-0500\n"
+"Last-Translator: Nathan Hangen <nhangen@gmail.com>\n"
+"Language-Team: IgnitionDeck <hello@virtuousgiant.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../.\n"
+"X-Poedit-SearchPathExcluded-0: .././lib\n"
+
+#: .././classes/class-id-authorize.net.php:102
+#: .././classes/class-id-authorize.net.php:151
+#: .././classes/class-id-authorize.net.php:157
+#: .././classes/class-id-authorize.net.php:178
+#: .././classes/class-id-combined-products.php:57
+#: .././classes/class-id-combined-products.php:77
+#: .././classes/class-id-combined-products.php:82 .././idcommerce-bm.php:326
+#: .././idcommerce-functions.php:3043 .././idcommerce-functions.php:3049
+#: .././idcommerce-functions.php:3071 .././idcommerce-functions.php:3164
+#: .././idcommerce-functions.php:3170 .././idcommerce-functions.php:3206
+#: .././idcommerce-functions.php:3388 .././idcommerce-functions.php:3394
+#: .././idcommerce-functions.php:3495 .././idcommerce-functions.php:3500
+#: .././idcommerce-functions.php:3525 .././idcommerce-functions.php:3531
+#: .././idcommerce-functions.php:3548 .././idcommerce-functions.php:3642
+#: .././idcommerce-functions.php:3699 .././idcommerce-functions.php:3705
+#: .././idcommerce-functions.php:3721 .././idcommerce-functions.php:3727
+#: .././idcommerce-functions.php:3744 .././idcommerce-functions.php:3750
+#: .././idcommerce-functions.php:3784 .././idcommerce-functions.php:3832
+#: .././idcommerce-functions.php:3852 .././idcommerce-functions.php:3913
+#: .././idcommerce-functions.php:3919 .././idcommerce-functions.php:3935
+#: .././idcommerce-functions.php:3941 .././idcommerce-functions.php:3958
+#: .././idcommerce-functions.php:3964 .././idcommerce-functions.php:3972
+#: .././idcommerce-functions.php:4000 .././idcommerce-functions.php:4048
+#: .././idcommerce-functions.php:4068 .././idcommerce-functions.php:4182
+#: .././idcommerce-functions.php:4220 .././idcommerce-functions.php:4225
+#: .././idcommerce-functions.php:4229 .././idcommerce-functions.php:4250
+#: .././idcommerce-functions.php:4271 .././idcommerce-functions.php:4277
+#: .././idcommerce-functions.php:4681 .././idcommerce-functions.php:4685
+#: .././idcommerce-functions.php:4689 .././idcommerce-functions.php:5792
+#: .././idcommerce-functions.php:5798 .././idcommerce-functions.php:5843
+msgid "failure"
+msgstr ""
+
+#: .././classes/class-id-authorize.net.php:178
+msgid "Could not create charge token"
+msgstr ""
+
+#: .././classes/class-id-member-email.php:120
+#: .././idcommerce-functions.php:703 .././idcommerce-functions.php:928
+#: .././idcommerce-functions.php:1137 .././idcommerce-functions.php:1358
+#: .././inc/idcommerce-ide.php:920 .././inc/idcommerce-ide.php:1003
+msgid "From"
+msgstr ""
+
+#: .././classes/class-id-member-email.php:121
+#: .././idcommerce-functions.php:704 .././idcommerce-functions.php:929
+#: .././idcommerce-functions.php:1138 .././idcommerce-functions.php:1359
+#: .././inc/idcommerce-ide.php:921 .././inc/idcommerce-ide.php:1004
+msgid "Reply-To"
+msgstr ""
+
+#: .././classes/class-id-member-metaboxes.php:14
+msgid "Protect Content"
+msgstr ""
+
+#: .././classes/class-id-member-metaboxes.php:15
+msgid "MemberDeck Shortcodes"
+msgstr ""
+
+#: .././classes/class-id-member-renewals.php:47
+msgid "Product Renewal Notification"
+msgstr ""
+
+#: .././classes/class-id-member-renewals.php:69
+#: .././idcommerce-functions.php:719 .././idcommerce-functions.php:944
+#: .././idcommerce-functions.php:1153 .././idcommerce-functions.php:1407
+msgid "Hello"
+msgstr ""
+
+#: .././classes/class-id-member-renewals.php:71
+msgid "Your product "
+msgstr ""
+
+#: .././classes/class-id-member-renewals.php:71
+msgid " is about to expire"
+msgstr ""
+
+#: .././classes/class-id-member-renewals.php:73
+msgid "Please renew your product to avoid any inconvenience"
+msgstr ""
+
+#: .././classes/class-id-member-renewals.php:78
+msgid "Days remaining"
+msgstr ""
+
+#: .././classes/class-id-member-renewals.php:86 .././idcommerce.php:597
+msgid "Follow this link"
+msgstr ""
+
+#: .././classes/class-id-member-renewals.php:86 .././idcommerce.php:597
+msgid "to renew your product or use the address below"
+msgstr ""
+
+#: .././classes/class-id-member.php:502 .././classes/class-id-member.php:525
+msgid "IDC Customer Export"
+msgstr ""
+
+#: .././idcommerce-admin.php:7
+msgid "IDC"
+msgstr ""
+
+#: .././idcommerce-admin.php:9 .././templates/admin/_userMenu.php:2
+msgid "Members"
+msgstr ""
+
+#: .././idcommerce-admin.php:10 .././templates/_mdProfileTabs.php:25
+#: .././templates/admin/_orderList.php:2
+msgid "Orders"
+msgstr ""
+
+#: .././idcommerce-admin.php:11
+msgid "Gateways"
+msgstr ""
+
+#: .././idcommerce-admin.php:12
+msgid "Email"
+msgstr ""
+
+#: .././idcommerce-admin.php:13
+msgid "Upgrades"
+msgstr ""
+
+#: .././idcommerce-admin.php:17
+msgid "Crowdfunding"
+msgstr ""
+
+#: .././idcommerce-admin.php:20 .././templates/admin/_enterpriseSettings.php:2
+msgid "Enterprise Settings"
+msgstr ""
+
+#: .././idcommerce-admin.php:30 .././templates/admin/_stripeConnect.php:2
+msgid "Stripe Connect"
+msgstr ""
+
+#: .././idcommerce-admin.php:34
+#: .././templates/admin/_balancedMarketplace.php:2
+msgid "Balanced Marketplaces"
+msgstr ""
+
+#: .././idcommerce-admin.php:40
+msgid "S3 Settings"
+msgstr ""
+
+#: .././idcommerce-admin.php:124
+msgid "Level Created"
+msgstr ""
+
+#: .././idcommerce-admin.php:124
+msgid "Edit Checkout Page"
+msgstr ""
+
+#: .././idcommerce-admin.php:144
+msgid "Level Saved"
+msgstr ""
+
+#: .././idcommerce-admin.php:156
+msgid "Level Deleted"
+msgstr ""
+
+#: .././idcommerce-admin.php:187
+msgid "Credit Saved"
+msgstr ""
+
+#: .././idcommerce-admin.php:288
+msgid "Download Saved"
+msgstr ""
+
+#: .././idcommerce-admin.php:294
+msgid "Download Deleted"
+msgstr ""
+
+#: .././idcommerce-admin.php:301
+msgid "Credit Deleted"
+msgstr ""
+
+#: .././idcommerce-admin.php:373
+msgid "Dashboard Saved"
+msgstr ""
+
+#: .././idcommerce-admin.php:551
+msgid "Settings Saved"
+msgstr ""
+
+#: .././idcommerce-admin.php:606
+msgid "CRM Settings Saved"
+msgstr ""
+
+#: .././idcommerce-admin.php:633
+msgid "Virtual Currency Settings Saved"
+msgstr ""
+
+#: .././idcommerce-admin.php:904
+msgid "Gateways Saved"
+msgstr ""
+
+#: .././idcommerce-admin.php:1006
+msgid "Pathway already exists"
+msgstr ""
+
+#: .././idcommerce-admin.php:1494
+msgid "Make Available for Memberships"
+msgstr ""
+
+#: .././idcommerce-admin.php:1626
+msgid "IDC Account Links"
+msgstr ""
+
+#: .././idcommerce-admin.php:1628
+msgid ""
+"Use this setting to automatically add the My Account and Login/Register/"
+"Logout links to your navigation menu. Do not use if using Theme 500."
+msgstr ""
+
+#: .././idcommerce-admin.php:1667
+msgid "My Account"
+msgstr ""
+
+#: .././idcommerce-admin.php:1668
+msgid "Logout"
+msgstr ""
+
+#: .././idcommerce-admin.php:1671
+msgid "Create Account"
+msgstr ""
+
+#: .././idcommerce-admin.php:1672 .././templates/_checkoutForm.php:178
+msgid "Login"
+msgstr ""
+
+#: .././idcommerce-bm.php:22
+msgid "You will be charged an additional transaction fee of "
+msgstr ""
+
+#: .././idcommerce-bm.php:22
+msgid ""
+"%, which will be added to the total and reflect on your credit card "
+"statement."
+msgstr ""
+
+#: .././idcommerce-bm.php:25
+msgid "You will be charged an additional transaction fee of $"
+msgstr ""
+
+#: .././idcommerce-bm.php:25
+msgid ""
+", which will be added to the total and reflect on your credit card statement."
+msgstr ""
+
+#: .././idcommerce-bm.php:47
+msgid "Name on Bank Account"
+msgstr ""
+
+#: .././idcommerce-bm.php:55
+msgid "Account Number"
+msgstr ""
+
+#: .././idcommerce-bm.php:63
+msgid "Routing Number"
+msgstr ""
+
+#: .././idcommerce-bm.php:71
+msgid "Account Type"
+msgstr ""
+
+#: .././idcommerce-bm.php:79
+msgid "Checking"
+msgstr ""
+
+#: .././idcommerce-bm.php:80
+msgid "Savings"
+msgstr ""
+
+#: .././idcommerce-bm.php:368
+msgid "success"
+msgstr ""
+
+#: .././idcommerce-filters.php:286
+msgid "Passwords do not match"
+msgstr ""
+
+#: .././idcommerce-filters.php:289
+msgid "Profile Updated!"
+msgstr ""
+
+#: .././idcommerce-filters.php:591
+msgid "Your account has been successfully created."
+msgstr ""
+
+#: .././idcommerce-filters.php:722 .././idcommerce-filters.php:730
+#: .././idcommerce-filters.php:846 .././inc/idcommerce-helix.php:74
+#: .././templates/admin/_settingsMenu.php:265
+#: .././templates/admin/_userMenu.php:65
+#: .././templates/admin/_userMenu.php:102
+#: .././templates/admin/_userMenu.php:308
+#: .././templates/admin/_userMenu.php:313
+msgid "Credits"
+msgstr ""
+
+#: .././idcommerce-functions.php:314 .././idcommerce-functions.php:317
+msgid "Checkout"
+msgstr ""
+
+#: .././idcommerce-functions.php:702 .././idcommerce-functions.php:715
+#: .././idcommerce-functions.php:1149
+msgid "Payment Receipt"
+msgstr ""
+
+#: .././idcommerce-functions.php:721
+msgid "You have successfully made a payment of "
+msgstr ""
+
+#: .././idcommerce-functions.php:723
+msgid "This transaction should appear on your Credit Card statement as"
+msgstr ""
+
+#: .././idcommerce-functions.php:727 .././idcommerce-functions.php:956
+msgid "DATE"
+msgstr ""
+
+#: .././idcommerce-functions.php:728
+msgid "PRODUCT"
+msgstr ""
+
+#: .././idcommerce-functions.php:729 .././idcommerce-functions.php:958
+msgid "AMOUNT"
+msgstr ""
+
+#: .././idcommerce-functions.php:730
+msgid "ORDER ID"
+msgstr ""
+
+#: .././idcommerce-functions.php:741 .././idcommerce-functions.php:968
+msgid "Thank you for your support!"
+msgstr ""
+
+#: .././idcommerce-functions.php:742 .././idcommerce-functions.php:969
+#: .././idcommerce-functions.php:1166
+msgid "The"
+msgstr ""
+
+#: .././idcommerce-functions.php:742 .././idcommerce-functions.php:969
+#: .././idcommerce-functions.php:1166
+msgid "team"
+msgstr ""
+
+#: .././idcommerce-functions.php:927 .././idcommerce-functions.php:940
+msgid "Pre-Order Confirmation"
+msgstr ""
+
+#: .././idcommerce-functions.php:946
+msgid "This is a confirmation of your pre-order of "
+msgstr ""
+
+#: .././idcommerce-functions.php:948 .././idcommerce-functions.php:1163
+msgid "You have earned a total of "
+msgstr ""
+
+#: .././idcommerce-functions.php:948 .././idcommerce-functions.php:1163
+msgid "credits for this purchase"
+msgstr ""
+
+#: .././idcommerce-functions.php:951
+msgid "If funding is successful, this charge will process on "
+msgstr ""
+
+#: .././idcommerce-functions.php:957
+msgid "DESCRIPTION"
+msgstr ""
+
+#: .././idcommerce-functions.php:1136
+msgid "Complete Your Registration"
+msgstr ""
+
+#: .././idcommerce-functions.php:1155
+msgid "Thank you for your purchase of "
+msgstr ""
+
+#: .././idcommerce-functions.php:1157
+msgid ""
+"Your order is almost ready to go. We just need you to click the link below "
+"to complete your registration"
+msgstr ""
+
+#: .././idcommerce-functions.php:1165
+msgid "Thank you for your support"
+msgstr ""
+
+#: .././idcommerce-functions.php:1393
+msgid "Registration Confirmation"
+msgstr ""
+
+#: .././idcommerce-functions.php:1409
+msgid "Congratulations, your registration for "
+msgstr ""
+
+#: .././idcommerce-functions.php:1409
+msgid " was successful"
+msgstr ""
+
+#: .././idcommerce-functions.php:1411
+msgid ""
+"If you have already created a password, you can login at any time using the "
+"information below. Otherwise, please check your inbox for a second email "
+"with instructions for creating your password."
+msgstr ""
+
+#: .././idcommerce-functions.php:1416
+msgid "Username"
+msgstr ""
+
+#: .././idcommerce-functions.php:1417
+msgid "Login URL"
+msgstr ""
+
+#: .././idcommerce-functions.php:1630
+msgid "Dashboard Sidebar"
+msgstr ""
+
+#: .././idcommerce-functions.php:1632
+msgid "Appears on the Dashboard below the User Profile"
+msgstr ""
+
+#: .././idcommerce-functions.php:2373
+msgid "Could not process request."
+msgstr ""
+
+#: .././idcommerce-functions.php:2394 .././idcommerce-functions.php:2418
+msgid "Subscription successfully cancelled"
+msgstr ""
+
+#: .././idcommerce-functions.php:2421 .././idcommerce-functions.php:2424
+msgid "Could not retrieve subscription"
+msgstr ""
+
+#: .././idcommerce-functions.php:2429 .././idcommerce-functions.php:2432
+msgid "Could not retrieve customer"
+msgstr ""
+
+#: .././idcommerce-functions.php:4681
+msgid "Could not authorize transaction"
+msgstr ""
+
+#: .././idcommerce-functions.php:4685 .././idcommerce-functions.php:4689
+msgid "Could not create customer token"
+msgstr ""
+
+#: .././idcommerce-functions.php:4727
+msgid "Cannot use "
+msgstr ""
+
+#: .././idcommerce-functions.php:4846
+msgid "This user is not a memberdeck user"
+msgstr ""
+
+#: .././idcommerce-functions.php:4851
+msgid "You do not have enough credits to complete this transaction"
+msgstr ""
+
+#: .././idcommerce-functions.php:4856
+msgid "User was not found"
+msgstr ""
+
+#: .././idcommerce-functions.php:5600
+msgid "First Data Error"
+msgstr ""
+
+#: .././idcommerce-functions.php:5643
+msgid "Could not process transaction"
+msgstr ""
+
+#: .././idcommerce-functions.php:5895
+msgid "No customer ID present"
+msgstr ""
+
+#: .././idcommerce-functions.php:5973 .././idcommerce-functions.php:6035
+msgid "Anonymous"
+msgstr ""
+
+#: .././idcommerce-functions.php:5989
+msgid "show more"
+msgstr ""
+
+#: .././idcommerce-functions.php:6160 .././idcommerce-functions.php:6224
+msgid "Successful Project Notification"
+msgstr ""
+
+#: .././idcommerce-sc.php:182
+msgid "No client id set"
+msgstr ""
+
+#: .././idcommerce-shortcodes.php:550
+msgid "You already own this product. Please"
+msgstr ""
+
+#: .././idcommerce-shortcodes.php:550
+msgid "logout"
+msgstr ""
+
+#: .././idcommerce-shortcodes.php:550
+msgid "and create a new account in order to purchase again"
+msgstr ""
+
+#: .././idcommerce-update.php:94
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: .././idcommerce-update.php:99
+msgid "An unknown error occurred"
+msgstr ""
+
+#: .././idcommerce.php:101
+msgid ""
+"IgnitionDeck Commerce requires installation of the IgnitionDeck Framework "
+"prior to activation."
+msgstr ""
+
+#: .././idcommerce.php:101
+msgid "Click here to install"
+msgstr ""
+
+#: .././idcommerce.php:148
+msgid "Virtual Currency"
+msgstr ""
+
+#: .././idcommerce.php:149
+msgid "Purchase form shortcode"
+msgstr ""
+
+#: .././idcommerce.php:150
+msgid "Continue"
+msgstr ""
+
+#: .././idcommerce.php:151
+msgid "Complete Checkout"
+msgstr ""
+
+#: .././idcommerce.php:152
+msgid "Use IDCF Setting"
+msgstr ""
+
+#: .././idcommerce.php:153
+msgid "Continue Checkout"
+msgstr ""
+
+#: .././idcommerce.php:154 .././templates/admin/_bridgeSettings.php:40
+#: .././templates/admin/_settingsMenu.php:31
+#: .././templates/admin/_settingsMenu.php:482
+msgid "Choose Product"
+msgstr ""
+
+#: .././idcommerce.php:155 .././templates/admin/_settingsMenu.php:159
+msgid "Choose Download"
+msgstr ""
+
+#: .././idcommerce.php:156
+msgid "Choose Credit"
+msgstr ""
+
+#: .././idcommerce.php:157 .././templates/admin/_memberDashboard.php:211
+msgid "No Payment Options"
+msgstr ""
+
+#: .././idcommerce.php:158 .././templates/admin/_memberDashboard.php:209
+msgid "Select Payment Option"
+msgstr ""
+
+#: .././idcommerce.php:159 .././templates/admin/_memberDashboard.php:217
+msgid "Pay with "
+msgstr ""
+
+#: .././idcommerce.php:1529
+msgid "CoinbaseCallback"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:119 .././inc/templates/_idcHelixMenu.php:21
+msgid "My Projects"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:123 .././inc/idcommerce-ide.php:244
+msgid "Create Project"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:130 .././inc/idcommerce-ide.php:136
+msgid "Payment Account"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:402 .././templates/_creatorSettings.php:14
+#: .././templates/admin/_gatewaySettings.php:38
+msgid "Paypal Email"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:434
+msgid "File Deleted"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:439
+msgid "Error Deleting File"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:445
+msgid "File Does Not Exist"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:503
+msgid "File Uploaded Successfully"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:508
+msgid "Error Processing Upload. Please check filetype and size."
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:549
+msgid "File Name"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:558
+msgid "File"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:567
+msgid "Project Level"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:577
+msgid "Upload File"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:585
+msgid "Manage Project Rewards"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:589
+msgid "Level"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:590
+msgid "Attached File"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:603
+msgid "Delete Reward"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:611
+msgid "Add Project Rewards"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:919
+msgid "New Project Submission"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:927
+msgid "Project Submission Notification"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:931
+msgid "You have a new project submission from user "
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:931
+msgid " with the following attributes"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:936 .././inc/idcommerce-ide.php:1019
+msgid "Title"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:937 .././inc/idcommerce-ide.php:1020
+msgid "Description"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:938 .././inc/idcommerce-ide.php:1021
+msgid "Goal"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:947
+msgid "Use this link"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:947
+msgid " to moderate the project"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:1002 .././inc/idcommerce-ide.php:1010
+msgid "Project Submission Confirmation"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:1014
+msgid "Congratulations. The following project has been submitted for approval"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:1030
+msgid ""
+"You will be notified when the review process has been completed. In the "
+"interim, you may use "
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:1030
+msgid "this link"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:1030
+msgid " to continue editing the project"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:1053
+msgid "Project Success Notification (Backer)"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:1054
+msgid "Project Success Notification (Admin/Creator)"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:1055
+msgid "Project Update Notification"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:1175
+msgid "Update Information"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:1176
+msgid "Update Title"
+msgstr ""
+
+#: .././inc/idcommerce-ide.php:1177
+msgid "Update Content"
+msgstr ""
+
+#: .././inc/templates/_idcHelixMenu.php:2 .././templates/_mdProfileTabs.php:21
+msgid "Dashboard"
+msgstr ""
+
+#: .././inc/templates/_idcHelixMenu.php:3 .././templates/_mdProfileTabs.php:22
+msgid "Account"
+msgstr ""
+
+#: .././inc/templates/_idcHelixMenu.php:5
+msgid "Order History"
+msgstr ""
+
+#: .././inc/templates/_idcHelixMenu.php:9
+msgid "Profile"
+msgstr ""
+
+#: .././inc/templates/_idcHelixMenu.php:11
+msgid "Backer Profile"
+msgstr ""
+
+#: .././inc/templates/_idcHelixMenu.php:13
+msgid "Creator Profile"
+msgstr ""
+
+#: .././inc/templates/_idcHelixMenu.php:19
+msgid "Creator Settings"
+msgstr ""
+
+#: .././templates/_bmSignup.php:3
+msgid "Balanced"
+msgstr ""
+
+#: .././templates/_bmSignup.php:4
+msgid "Some description about Balanced"
+msgstr ""
+
+#: .././templates/_checkoutCoinbaseDescription.php:3
+msgid ""
+"You will be directed to Coinbase to authenticate and complete your payment of"
+msgstr ""
+
+#: .././templates/_checkoutCoinbaseDescription.php:7
+#: .././templates/_checkoutCreditCardDescription.php:11
+#: .././templates/_checkoutPayPalDescription.php:8
+msgid "Recurring product"
+msgstr ""
+
+#: .././templates/_checkoutCoinbaseDescription.php:7
+#: .././templates/_checkoutCreditCardDescription.php:11
+#: .././templates/_checkoutPayPalDescription.php:8
+msgid "is combined with this Product"
+msgstr ""
+
+#: .././templates/_checkoutCreditCardDescription.php:2
+msgid "Your card will be billed"
+msgstr ""
+
+#: .././templates/_checkoutCreditCardDescription.php:5
+msgid "in "
+msgstr ""
+
+#: .././templates/_checkoutCreditCardDescription.php:7
+msgid "installments"
+msgstr ""
+
+#: .././templates/_checkoutCreditCardDescription.php:8
+msgid "using the card on file"
+msgstr ""
+
+#: .././templates/_checkoutCreditCardDescription.php:9
+msgid "and will appear on your statement as"
+msgstr ""
+
+#: .././templates/_checkoutCreditsDescription.php:1
+#: .././templates/_checkoutCreditsDescription.php:5
+#: .././templates/_checkoutCreditsDescription.php:7
+msgid "credits"
+msgstr ""
+
+#: .././templates/_checkoutCreditsDescription.php:3
+msgid "This product costs"
+msgstr ""
+
+#: .././templates/_checkoutCreditsDescription.php:7
+msgid "Your current account "
+msgstr ""
+
+#: .././templates/_checkoutCreditsDescription.php:9
+msgid "After the purchase your remaining "
+msgstr ""
+
+#: .././templates/_checkoutForm.php:16
+msgid "Select Payment Method"
+msgstr ""
+
+#: .././templates/_checkoutForm.php:25 .././templates/_creatorSettings.php:11
+msgid "Paypal"
+msgstr ""
+
+#: .././templates/_checkoutForm.php:31
+msgid "PayPal"
+msgstr ""
+
+#: .././templates/_checkoutForm.php:37 .././templates/_checkoutForm.php:43
+#: .././templates/_checkoutForm.php:49 .././templates/_checkoutForm.php:55
+msgid "Credit Card"
+msgstr ""
+
+#: .././templates/_checkoutForm.php:61
+msgid "Offline Checkout"
+msgstr ""
+
+#: .././templates/_checkoutForm.php:73
+msgid "Bitcoin"
+msgstr ""
+
+#: .././templates/_checkoutForm.php:80
+msgid "Already have an account?"
+msgstr ""
+
+#: .././templates/_checkoutForm.php:83 .././templates/_checkoutForm.php:121
+#: .././templates/_editProfile.php:17 .././templates/_regForm.php:5
+#: .././templates/admin/_orderList.php:196
+#: .././templates/admin/_userMenu.php:198
+msgid "First Name"
+msgstr ""
+
+#: .././templates/_checkoutForm.php:87 .././templates/_checkoutForm.php:125
+#: .././templates/_editProfile.php:21 .././templates/_regForm.php:9
+#: .././templates/admin/_orderList.php:200
+#: .././templates/admin/_userMenu.php:202
+msgid "Last Name"
+msgstr ""
+
+#: .././templates/_checkoutForm.php:91 .././templates/_checkoutForm.php:129
+#: .././templates/_regForm.php:13 .././templates/admin/_emailSettings.php:57
+#: .././templates/admin/_orderList.php:204
+#: .././templates/admin/_userMenu.php:206
+msgid "Email Address"
+msgstr ""
+
+#: .././templates/_checkoutForm.php:96 .././templates/_checkoutForm.php:107
+#: .././templates/_editProfile.php:55 .././templates/_regForm.php:17
+#: .././templates/admin/_gatewaySettings.php:201
+msgid "Password"
+msgstr ""
+
+#: .././templates/_checkoutForm.php:100 .././templates/_checkoutForm.php:111
+#: .././templates/_editProfile.php:59 .././templates/_regForm.php:21
+msgid "Re-enter Password"
+msgstr ""
+
+#: .././templates/_checkoutForm.php:104
+msgid "Create an account"
+msgstr ""
+
+#: .././templates/_checkoutForm.php:137
+msgid "Credit Card Info"
+msgstr ""
+
+#: .././templates/_checkoutForm.php:140
+msgid "Card Number"
+msgstr ""
+
+#: .././templates/_checkoutForm.php:140
+msgid "Credit Cards Accepted"
+msgstr ""
+
+#: .././templates/_checkoutForm.php:141
+msgid "Incorrect Number"
+msgstr ""
+
+#: .././templates/_checkoutForm.php:144
+msgid "CVC"
+msgstr ""
+
+#: .././templates/_checkoutForm.php:145
+msgid "CVC number required"
+msgstr ""
+
+#: .././templates/_checkoutForm.php:148
+msgid "Expiration (MM/YYYY)"
+msgstr ""
+
+#: .././templates/_checkoutForm.php:167
+msgid "By checking this box, I agree to the"
+msgstr ""
+
+#: .././templates/_checkoutForm.php:173
+msgid "Submit Payment"
+msgstr ""
+
+#: .././templates/_checkoutForm.php:179
+msgid "Need to register?"
+msgstr ""
+
+#: .././templates/_checkoutForm.php:207
+msgid "JavaScript is required for the registration form"
+msgstr ""
+
+#: .././templates/_checkoutFreeDescription.php:2
+msgid "This is a free product."
+msgstr ""
+
+#: .././templates/_checkoutFreeDescription.php:2
+msgid "Click continue to add it to your account"
+msgstr ""
+
+#: .././templates/_checkoutOfflineDescription.php:3
+msgid "You can purchase products offline and pay later manually"
+msgstr ""
+
+#: .././templates/_checkoutPayPalDescription.php:3
+msgid "You will be redirected to PayPal to complete your payment of"
+msgstr ""
+
+#: .././templates/_checkoutPayPalDescription.php:6
+msgid "Once complete, check your email for registration information"
+msgstr ""
+
+#: .././templates/_checkoutTooltip.php:8
+msgid ""
+"This is a weekly subscription. You will be charged every week until you "
+"cancel."
+msgstr ""
+
+#: .././templates/_checkoutTooltip.php:11
+#, php-format
+msgid ""
+"This is a weekly subscription. You will be charged for a total of %s "
+"payments."
+msgstr ""
+
+#: .././templates/_checkoutTooltip.php:18
+msgid ""
+"This is a monthly subscription. You will be charged every month until you "
+"cancel."
+msgstr ""
+
+#: .././templates/_checkoutTooltip.php:21
+#, php-format
+msgid ""
+"This is a monthly subscription. You will be charged a total of %s payments."
+msgstr ""
+
+#: .././templates/_checkoutTooltip.php:28
+msgid ""
+"This is an annual subscription. You will be charged every year until you "
+"cancel."
+msgstr ""
+
+#: .././templates/_checkoutTooltip.php:31
+#, php-format
+msgid ""
+"This is an annual subscription. You will be charged a total of %s payments."
+msgstr ""
+
+#: .././templates/_checkoutTooltip.php:37
+msgid "This transaction is a pre-order. You will be charged at a later time."
+msgstr ""
+
+#: .././templates/_checkoutTooltip.php:39
+msgid "This is a one time payment. You will be charged immediately."
+msgstr ""
+
+#: .././templates/_creatorSettings.php:12
+msgid "Add your paypal email id "
+msgstr ""
+
+#: .././templates/_creatorSettings.php:24
+#: .././templates/_creatorSettings.php:27
+msgid "Mailchimp"
+msgstr ""
+
+#: .././templates/_creatorSettings.php:26
+#: .././templates/admin/_settingsMenu.php:560
+#: .././templates/admin/_settingsMenu.php:579
+#: .././templates/admin/_settingsMenu.php:596
+msgid "Sign up for a free "
+msgstr ""
+
+#: .././templates/_creatorSettings.php:28
+#: .././templates/admin/_settingsMenu.php:560
+msgid "account to start building a customer database."
+msgstr ""
+
+#: .././templates/_creatorSettings.php:32
+#: .././templates/admin/_settingsMenu.php:564
+msgid "Mailchimp API Key"
+msgstr ""
+
+#: .././templates/_creatorSettings.php:38
+#: .././templates/admin/_settingsMenu.php:568
+msgid "Mailchimp List ID"
+msgstr ""
+
+#: .././templates/_creatorSettings.php:51
+msgid "Submit"
+msgstr ""
+
+#: .././templates/_editProfile.php:10
+msgid "Profile Information"
+msgstr ""
+
+#: .././templates/_editProfile.php:11
+msgid "Note: "
+msgstr ""
+
+#: .././templates/_editProfile.php:11
+msgid ""
+"Fields marked with <span class=\"starred\">*</span> may display publicly."
+msgstr ""
+
+#: .././templates/_editProfile.php:13
+msgid "Display Name <span class=\"starred\">*</span>"
+msgstr ""
+
+#: .././templates/_editProfile.php:25
+msgid "Email Address <span class=\"starred\">*</span>"
+msgstr ""
+
+#: .././templates/_editProfile.php:30 .././templates/admin/_orderList.php:212
+#: .././templates/admin/_userMenu.php:214
+msgid "Bio"
+msgstr ""
+
+#: .././templates/_editProfile.php:35
+msgid "Website URL <span class=\"starred\">*</span>"
+msgstr ""
+
+#: .././templates/_editProfile.php:40 .././templates/admin/_orderList.php:216
+#: .././templates/admin/_userMenu.php:218
+msgid "Twitter URL"
+msgstr ""
+
+#: .././templates/_editProfile.php:44 .././templates/admin/_orderList.php:218
+#: .././templates/admin/_userMenu.php:220
+msgid "Facebook URL"
+msgstr ""
+
+#: .././templates/_editProfile.php:48 .././templates/admin/_orderList.php:220
+#: .././templates/admin/_userMenu.php:222
+msgid "Google URL"
+msgstr ""
+
+#: .././templates/_editProfile.php:52
+msgid "Password Modification"
+msgstr ""
+
+#: .././templates/_editProfile.php:53
+msgid "Note:"
+msgstr ""
+
+#: .././templates/_editProfile.php:53
+msgid ""
+"changing your password will clear login cookies. You will need to login "
+"again after saving."
+msgstr ""
+
+#: .././templates/_editProfile.php:64
+msgid "Payment Settings"
+msgstr ""
+
+#: .././templates/_editProfile.php:66 .././templates/admin/_userMenu.php:263
+msgid "Subscriptions"
+msgstr ""
+
+#: .././templates/_editProfile.php:67
+msgid "Manage active subscriptions"
+msgstr ""
+
+#: .././templates/_editProfile.php:74 .././templates/admin/_userMenu.php:271
+msgid "Select Subscription"
+msgstr ""
+
+#: .././templates/_editProfile.php:85 .././templates/admin/_userMenu.php:274
+msgid "Cancel Subscription"
+msgstr ""
+
+#: .././templates/_editProfile.php:88
+msgid "Instant Checkout"
+msgstr ""
+
+#: .././templates/_editProfile.php:89
+msgid ""
+"With instant checkout enabled, you can pay with your credit card without re-"
+"entering information. To enable, simply use your credit card to checkout "
+"once, and then select &lsquo;enable instant checkout&rsquo; from this "
+"screen, and click 'Update Profile' below."
+msgstr ""
+
+#: .././templates/_editProfile.php:90
+msgid ""
+"Your credit card information is never stored on our servers, and is always "
+"processed securely."
+msgstr ""
+
+#: .././templates/_editProfile.php:96
+msgid "Enable Instant Checkout"
+msgstr ""
+
+#: .././templates/_editProfile.php:101
+msgid "Update Profile"
+msgstr ""
+
+#: .././templates/_enableCreator.php:1
+msgid "Become a Creator"
+msgstr ""
+
+#: .././templates/_enableCreator.php:4
+msgid "Check to enable creator functionality"
+msgstr ""
+
+#: .././templates/_idcButtonContent.php:5
+msgid "Step 1:"
+msgstr ""
+
+#: .././templates/_idcButtonContent.php:5
+msgid "Confirm your purchase of"
+msgstr ""
+
+#: .././templates/_idcButtonContent.php:10
+msgid "Total"
+msgstr ""
+
+#: .././templates/_idcButtonContent.php:11
+msgid "Default Price"
+msgstr ""
+
+#: .././templates/_idcButtonContent.php:20
+msgid "Input price is less than Product default price"
+msgstr ""
+
+#: .././templates/_idcButtonContent.php:26
+msgid "Next Step"
+msgstr ""
+
+#: .././templates/_myProjects.php:6
+msgid "PUBLISHED"
+msgstr ""
+
+#: .././templates/_myProjects.php:20
+msgid "Raised"
+msgstr ""
+
+#: .././templates/_orderLightbox.php:13 .././templates/_orderLightbox.php:39
+#: .././templates/admin/_settingsMenu.php:59
+msgid "Order"
+msgstr ""
+
+#: .././templates/_orderLightbox.php:20
+msgid "Company detail line 2:"
+msgstr ""
+
+#: .././templates/_orderLightbox.php:38
+msgid "Thank you!"
+msgstr ""
+
+#: .././templates/_orderLightbox.php:42
+msgid "Your order details:"
+msgstr ""
+
+#: .././templates/_orderLightbox.php:50 .././templates/admin/_orderList.php:55
+#: .././templates/admin/_orderList.php:104
+msgid "Product"
+msgstr ""
+
+#: .././templates/_orderLightbox.php:52 .././templates/_orderList.php:9
+msgid "Amount"
+msgstr ""
+
+#: .././templates/_orderLightbox.php:63
+msgid "TOTAL"
+msgstr ""
+
+#: .././templates/_orderLightbox.php:74
+msgid "Email confirmation will be sent to your Inbox soon"
+msgstr ""
+
+#: .././templates/_orderLightbox.php:82
+msgid "Tell your friends about it"
+msgstr ""
+
+#: .././templates/_orderLightbox.php:87
+msgid "I just purchased"
+msgstr ""
+
+#: .././templates/_orderList.php:6 .././templates/admin/_orderList.php:37
+#: .././templates/admin/_orderList.php:86
+msgid "Order ID"
+msgstr ""
+
+#: .././templates/_orderList.php:7 .././templates/admin/_orderList.php:43
+#: .././templates/admin/_orderList.php:92
+#: .././templates/admin/_orderList.php:267
+#: .././templates/admin/_userMenu.php:291
+msgid "Order Date"
+msgstr ""
+
+#: .././templates/_orderList.php:8 .././templates/admin/_emailSettings.php:59
+#: .././templates/admin/_settingsMenu.php:35
+msgid "Product Name"
+msgstr ""
+
+#: .././templates/_orderList.php:10 .././templates/admin/_emailSettings.php:61
+#: .././templates/admin/_orderList.php:67
+#: .././templates/admin/_orderList.php:116
+msgid "Transaction ID"
+msgstr ""
+
+#: .././templates/_orderList.php:11
+msgid "Actions"
+msgstr ""
+
+#: .././templates/_protectedPage.php:2
+msgid "This content is restricted to members only"
+msgstr ""
+
+#: .././templates/_protectedPage.php:3
+msgid "Please login or register for access"
+msgstr ""
+
+#: .././templates/_protectedPage.php:9
+msgid "Incorrect password"
+msgstr ""
+
+#: .././templates/_protectedPage.php:12
+msgid ""
+"Critical Error: IgnitionDeck Framework is missing, please install and "
+"activiate IgnitionDeck Framework"
+msgstr ""
+
+#: .././templates/_protectedPage.php:15
+msgid "Username or Password should be not be empty"
+msgstr ""
+
+#: .././templates/_protectedPage.php:25
+msgid "Lost Password"
+msgstr ""
+
+#: .././templates/_purchasesBlocked.php:3
+msgid ""
+"Your account has been <span class=\"red\">suspended.</span> <br>Please "
+"contact an administrator for assistance."
+msgstr ""
+
+#: .././templates/_regForm.php:27
+msgid "Complete Registration"
+msgstr ""
+
+#: .././templates/_scSignup.php:3
+msgid "Stripe"
+msgstr ""
+
+#: .././templates/_scSignup.php:4
+msgid "Some description about stripe"
+msgstr ""
+
+#: .././templates/_scSignup.php:6
+msgid "Connected!"
+msgstr ""
+
+#: .././templates/_scSignup.php:6 .././templates/admin/_stripeConnect.php:52
+msgid "Connect with Stripe"
+msgstr ""
+
+#: .././templates/_shippingInfo.php:1
+msgid "Shipping Address"
+msgstr ""
+
+#: .././templates/_shippingInfo.php:2
+msgid ""
+"Please provide your up-to-date shipping address.  Your First and Last name "
+"will be used as well."
+msgstr ""
+
+#: .././templates/_shippingInfo.php:5 .././templates/admin/_orderList.php:224
+#: .././templates/admin/_userMenu.php:226
+msgid "Address Line 1"
+msgstr ""
+
+#: .././templates/_shippingInfo.php:9 .././templates/admin/_orderList.php:228
+#: .././templates/admin/_userMenu.php:230
+msgid "Address Line 2"
+msgstr ""
+
+#: .././templates/_shippingInfo.php:13 .././templates/admin/_orderList.php:232
+#: .././templates/admin/_userMenu.php:234
+msgid "City"
+msgstr ""
+
+#: .././templates/_shippingInfo.php:17 .././templates/admin/_orderList.php:236
+#: .././templates/admin/_userMenu.php:238
+msgid "State"
+msgstr ""
+
+#: .././templates/_shippingInfo.php:21 .././templates/admin/_orderList.php:240
+#: .././templates/admin/_userMenu.php:242
+msgid "Postal Code"
+msgstr ""
+
+#: .././templates/_shippingInfo.php:25 .././templates/admin/_orderList.php:244
+#: .././templates/admin/_userMenu.php:246
+msgid "Country"
+msgstr ""
+
+#: .././templates/admin/_balancedMarketplace.php:4
+#: .././templates/admin/_bridgeSettings.php:4
+#: .././templates/admin/_emailSettings.php:4
+#: .././templates/admin/_enterpriseSettings.php:4
+#: .././templates/admin/_gatewaySettings.php:4
+#: .././templates/admin/_orderList.php:4
+#: .././templates/admin/_s3Settings.php:4
+#: .././templates/admin/_settingsMenu.php:4
+#: .././templates/admin/_stripeConnect.php:4
+#: .././templates/admin/_upgradePathways.php:4
+#: .././templates/admin/_userMenu.php:4
+msgid "Support"
+msgstr ""
+
+#: .././templates/admin/_balancedMarketplace.php:5
+#: .././templates/admin/_bridgeSettings.php:5
+#: .././templates/admin/_emailSettings.php:5
+#: .././templates/admin/_enterpriseSettings.php:5
+#: .././templates/admin/_gatewaySettings.php:5
+#: .././templates/admin/_orderList.php:5
+#: .././templates/admin/_s3Settings.php:5
+#: .././templates/admin/_settingsMenu.php:5
+#: .././templates/admin/_stripeConnect.php:5
+#: .././templates/admin/_upgradePathways.php:5
+#: .././templates/admin/_userMenu.php:5
+msgid "Documentation"
+msgstr ""
+
+#: .././templates/admin/_balancedMarketplace.php:13
+msgid "Fee Settings"
+msgstr ""
+
+#: .././templates/admin/_balancedMarketplace.php:17
+#: .././templates/admin/_enterpriseSettings.php:18
+#: .././templates/admin/_stripeConnect.php:29
+msgid "Fee Type"
+msgstr ""
+
+#: .././templates/admin/_balancedMarketplace.php:20
+#: .././templates/admin/_enterpriseSettings.php:21
+#: .././templates/admin/_stripeConnect.php:31
+msgid "Flat Fee (in cents)"
+msgstr ""
+
+#: .././templates/admin/_balancedMarketplace.php:21
+#: .././templates/admin/_enterpriseSettings.php:22
+#: .././templates/admin/_stripeConnect.php:32
+msgid "Percentage"
+msgstr ""
+
+#: .././templates/admin/_balancedMarketplace.php:26
+msgid "Fee Payer"
+msgstr ""
+
+#: .././templates/admin/_balancedMarketplace.php:29
+msgid "Buyer"
+msgstr ""
+
+#: .././templates/admin/_balancedMarketplace.php:30
+msgid "Seller"
+msgstr ""
+
+#: .././templates/admin/_balancedMarketplace.php:35
+#: .././templates/admin/_enterpriseSettings.php:27
+#: .././templates/admin/_stripeConnect.php:38
+msgid "Fee Amount (numeric characters only)"
+msgstr ""
+
+#: .././templates/admin/_balancedMarketplace.php:47
+msgid "Payout Settings"
+msgstr ""
+
+#: .././templates/admin/_balancedMarketplace.php:52
+msgid "Select Product to Process"
+msgstr ""
+
+#: .././templates/admin/_balancedMarketplace.php:57
+msgid "Payee Name"
+msgstr ""
+
+#: .././templates/admin/_balancedMarketplace.php:58
+msgid "Customer ID"
+msgstr ""
+
+#: .././templates/admin/_balancedMarketplace.php:59
+msgid "Total Orders"
+msgstr ""
+
+#: .././templates/admin/_balancedMarketplace.php:60
+msgid "Total Payout"
+msgstr ""
+
+#: .././templates/admin/_balancedMarketplace.php:77
+msgid "Using Balanced Marketplaces"
+msgstr ""
+
+#: .././templates/admin/_bridgeSettings.php:2
+#: .././templates/admin/_bridgeSettings.php:11
+msgid "Crowdfunding Settings"
+msgstr ""
+
+#: .././templates/admin/_bridgeSettings.php:16
+msgid "Funding type available for creator submissions."
+msgstr ""
+
+#: .././templates/admin/_bridgeSettings.php:18
+msgid "Immediately Deliver Funds"
+msgstr ""
+
+#: .././templates/admin/_bridgeSettings.php:19
+msgid "100% Threshold"
+msgstr ""
+
+#: .././templates/admin/_bridgeSettings.php:20
+msgid "Immediately Deliver Funds + 100%"
+msgstr ""
+
+#: .././templates/admin/_bridgeSettings.php:21
+msgid "Immediately Deliver Funds + Subscription"
+msgstr ""
+
+#: .././templates/admin/_bridgeSettings.php:22
+msgid "All Options"
+msgstr ""
+
+#: .././templates/admin/_bridgeSettings.php:25
+#, php-format
+msgid ""
+"Note: 100% funding requires Stripe, Balanced, or First Data be active. "
+"Subscriptions require Stripe."
+msgstr ""
+
+#: .././templates/admin/_bridgeSettings.php:28
+#: .././templates/admin/_orderList.php:248
+#: .././templates/admin/_orderList.php:275
+#: .././templates/admin/_settingsMenu.php:382
+#: .././templates/admin/_settingsMenu.php:507
+#: .././templates/admin/_settingsMenu.php:607
+#: .././templates/admin/_userMenu.php:255
+#: .././templates/admin/_userMenu.php:299
+#: .././templates/admin/_userMenu.php:317
+msgid "Save"
+msgstr ""
+
+#: .././templates/admin/_bridgeSettings.php:34
+msgid "Product/Level Connections"
+msgstr ""
+
+#: .././templates/admin/_bridgeSettings.php:38
+msgid "Pair Products to Crowdfunding Levels"
+msgstr ""
+
+#: .././templates/admin/_bridgeSettings.php:44
+#: .././templates/admin/_bridgeSettings.php:63
+msgid "Select All"
+msgstr ""
+
+#: .././templates/admin/_bridgeSettings.php:44
+msgid "Clear All"
+msgstr ""
+
+#: .././templates/admin/_bridgeSettings.php:63
+msgid "Clear"
+msgstr ""
+
+#: .././templates/admin/_bridgeSettings.php:87
+msgid "Save Assignments"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:2
+msgid "Email Settings"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:12
+msgid "Template Settings"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:16
+msgid "Select Template"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:18
+msgid "Registration Email (Paypal)"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:19
+msgid "Welcome Email"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:20
+msgid "Purchase Receipt"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:21
+msgid "Pre-Order Receipt"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:22
+msgid "Product Renewal Notification Email"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:26
+msgid "Leave empty to use default template"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:34
+msgid "Save Template"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:34
+msgid "Restore Default"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:47
+msgid "Merge Tags"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:49
+msgid "Note: Some tags may not be available for certain template types"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:51
+msgid "Company Information"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:52
+#: .././templates/admin/_settingsMenu.php:423
+msgid "Company Name"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:53
+msgid "Company Email"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:54
+msgid "Site Name"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:55
+msgid "User Information"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:56
+#: .././templates/admin/_settingsMenu.php:258
+#: .././templates/admin/_settingsMenu.php:271
+#: .././templates/admin/_userMenu.php:47 .././templates/admin/_userMenu.php:84
+msgid "Name"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:58
+msgid "Order Information"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:60
+msgid "Order Amount"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:62
+msgid "Order/Registration Date"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:63
+msgid "Project Information"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:64
+msgid "Project Name"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:65
+msgid "End Date"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:66
+msgid "Product Expiration Information"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:66
+msgid "For Product Renewal Notification Email template only"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:67
+msgid "Days left"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:68
+msgid "Weeks Left"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:69
+msgid "Months Left"
+msgstr ""
+
+#: .././templates/admin/_emailSettings.php:70
+msgid "Renewal Checkout URL"
+msgstr ""
+
+#: .././templates/admin/_enterpriseSettings.php:14
+msgid "Paypal Adaptive Fee Settings"
+msgstr ""
+
+#: .././templates/admin/_enterpriseSettings.php:40
+#: .././templates/admin/_stripeConnect.php:68
+msgid "User Management"
+msgstr ""
+
+#: .././templates/admin/_enterpriseSettings.php:44
+msgid ""
+"Use this option to assign IDC products to a specific user. If the newly "
+"assigned user has not already connected to your site via their dashboard "
+"payment settings, they will need to do so prior to going live"
+msgstr ""
+
+#: .././templates/admin/_enterpriseSettings.php:45
+msgid "Assign Product to User"
+msgstr ""
+
+#: .././templates/admin/_enterpriseSettings.php:47
+#: .././templates/admin/_stripeConnect.php:75
+msgid "Select User"
+msgstr ""
+
+#: .././templates/admin/_enterpriseSettings.php:48
+msgid "No User: Remove Assignment"
+msgstr ""
+
+#: .././templates/admin/_enterpriseSettings.php:51
+#: .././templates/admin/_settingsMenu.php:119
+#: .././templates/admin/_settingsMenu.php:186
+#: .././templates/admin/_settingsMenu.php:616
+#: .././templates/admin/_shortcodeList.php:3
+msgid "Select Product"
+msgstr ""
+
+#: .././templates/admin/_enterpriseSettings.php:55
+msgid "Save Assignment"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:2
+msgid "Payment Gateways"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:12
+msgid "Default Gateway Settings"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:17
+msgid "Enable Test Mode"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:20
+msgid "Enable HTTPS"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:24
+msgid "Enable Offline Purchases"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:32
+#: .././templates/admin/_gatewaySettings.php:55
+msgid "Paypal Currency"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:42
+msgid "Paypal Test Email"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:46
+msgid "Paypal Test Return URL"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:50
+msgid "Paypal Return URL"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:61
+msgid "API Username"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:65
+msgid "API Password"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:69
+msgid "API Signature"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:73
+msgid "App ID"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:78
+msgid "Test API Username"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:82
+msgid "Test API Password"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:86
+msgid "Test API Signature"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:90
+msgid "Test App ID"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:94
+msgid "Pre-Approval Period (in days)"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:100
+msgid "Enable Paypal"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:104
+msgid "Enable PayPal Adaptive"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:109
+msgid "Enable for Creators"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:118
+msgid "Stripe Currency"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:120
+#: .././templates/admin/_gatewaySettings.php:225
+msgid "Choose Currency"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:121
+msgid "USD"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:122
+msgid "AUD"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:123
+msgid "CAD"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:124
+msgid "EUR"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:125
+msgid "GBP"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:126
+msgid "SEK"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:127
+msgid "CHF"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:128
+msgid "DKK"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:132
+msgid "Stripe Publishable Key"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:136
+msgid "Stripe Secret Key"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:140
+msgid "Stripe Publishable Key (Test)"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:144
+msgid "Stripe Secret Key (Test)"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:150
+msgid "Enable Stripe"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:155
+msgid "Enable Stripe Connect"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:164
+msgid "Balanced API Key"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:168
+msgid "Balanced Marketplace URL"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:172
+msgid "Balanced Test Key"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:176
+msgid "Balanced Test URL"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:182
+msgid "Enable Balanced"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:187
+msgid "Enable Marketplaces"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:197
+msgid "Gateway ID"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:205
+msgid "Key Id"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:209
+msgid "HMAC Key"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:214
+msgid "Enable First Data"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:222
+msgid "Coinbase Currency"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:226
+msgid "Bitcoin (BTC)"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:233
+msgid "Coinbase API Key"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:237
+msgid "Coinbase API Secret"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:242
+msgid "Enable Coinbase"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:250
+msgid "API Login ID"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:254
+msgid "Transaction Key"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:259
+msgid "Enable Authorize.Net"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:265
+msgid "Save Gateway Settings"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:269
+msgid "Process Pre-Authorizations"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:271
+msgid ""
+"Warning:</span> This will process all pending authorizations related to the "
+"selected IDC product"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:272
+msgid "Customers will only be charged once"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:278
+msgid "Process Authorizations"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:292
+msgid "Gateway Installation Requirements"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:294
+msgid "Offline Purchases"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:295
+msgid ""
+"Enable this to allow customers to complete checkout without entering payment "
+"information."
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:296
+msgid "Active Gateways"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:297
+msgid ""
+"Only one credit card gateway (Stripe, Balanced, First Data, Authorize.Net) "
+"may be active at one time."
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:298
+msgid "Currencies"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:299
+msgid ""
+"All Balanced Payments transactions will be processed in USD. Stripe "
+"transactions may be settled in the currencies listed."
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:300
+msgid "Recurring Payments"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:301
+msgid ""
+"Balanced does not yet support recurring payments. To use subscriptions, "
+"please enable Stripe, Paypal, Authorize.Net or Coinbase."
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:302
+msgid "Stripe Webhook URL"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:303
+msgid ""
+"In order to receive notifications of Stripe subscription payments, you'll "
+"need to create a production webhook URL with the following format"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:305
+msgid "Dispute Notifications"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:306
+msgid ""
+"In order to properly handle Paypal dispute notifications, you must set your "
+"Paypal IPN URL to"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:308
+msgid "Test Cards"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:309
+msgid "Balanced Test Cards"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:310
+msgid "Stripe Test Cards"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:312
+msgid "Stripe Connect Settings"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:313
+msgid ""
+"Your redirect URL must end in <em>?ipn_handler=sc_return</em>. For example, "
+"http://mydomain.com/?ipn_handler=sc_return"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:315
+msgid "Coinbase Settings"
+msgstr ""
+
+#: .././templates/admin/_gatewaySettings.php:316
+msgid ""
+"Coinbase does not offer a test mode, therefore all test transactions will "
+"require live transfer of Bitcoin. Coinbase to Coinbase transfers are free, "
+"and transactions are automatically converted to Bitcoin based on the "
+"currency setting saved here."
+msgstr ""
+
+#: .././templates/admin/_memberDashboard.php:23
+msgid "Registered"
+msgstr ""
+
+#: .././templates/admin/_memberDashboard.php:30
+msgid "Available"
+msgstr ""
+
+#: .././templates/admin/_memberDashboard.php:35
+#: .././templates/admin/_orderList.php:49
+#: .././templates/admin/_orderList.php:98
+msgid "Customer"
+msgstr ""
+
+#: .././templates/admin/_memberDashboard.php:35
+msgid "Member"
+msgstr ""
+
+#: .././templates/admin/_memberDashboard.php:59
+#: .././templates/admin/_memberDashboard.php:106
+#: .././templates/admin/_memberDashboard.php:156
+msgid "Updated"
+msgstr ""
+
+#: .././templates/admin/_memberDashboard.php:60
+#: .././templates/admin/_memberDashboard.php:107
+#: .././templates/admin/_memberDashboard.php:157
+msgid "Learn About "
+msgstr ""
+
+#: .././templates/admin/_memberDashboard.php:61
+#: .././templates/admin/_memberDashboard.php:108
+#: .././templates/admin/_memberDashboard.php:158
+msgid " Documentation"
+msgstr ""
+
+#: .././templates/admin/_memberDashboard.php:62
+#: .././templates/admin/_memberDashboard.php:109
+#: .././templates/admin/_memberDashboard.php:159
+msgid "License Key:"
+msgstr ""
+
+#: .././templates/admin/_memberDashboard.php:63
+#: .././templates/admin/_memberDashboard.php:110
+#: .././templates/admin/_memberDashboard.php:160
+msgid "Download"
+msgstr ""
+
+#: .././templates/admin/_memberDashboard.php:84
+#: .././templates/admin/_memberDashboard.php:132
+#: .././templates/admin/_memberDashboard.php:181
+#: .././templates/admin/_settingsMenu.php:45
+msgid "Purchase"
+msgstr ""
+
+#: .././templates/admin/_memberDashboard.php:84
+#: .././templates/admin/_memberDashboard.php:132
+#: .././templates/admin/_memberDashboard.php:181
+msgid "Click for Info"
+msgstr ""
+
+#: .././templates/admin/_memberDashboard.php:198
+msgid "What is Instant Checkout"
+msgstr ""
+
+#: .././templates/admin/_memberDashboard.php:201
+msgid "Buy"
+msgstr ""
+
+#: .././templates/admin/_memberDashboard.php:205
+msgid "you have"
+msgstr ""
+
+#: .././templates/admin/_memberDashboard.php:205
+msgid " available"
+msgstr ""
+
+#: .././templates/admin/_memberDashboard.php:214
+msgid "Card on File"
+msgstr ""
+
+#: .././templates/admin/_memberDashboard.php:221
+msgid "Confirm"
+msgstr ""
+
+#: .././templates/admin/_metaboxCategory.php:15
+#: .././templates/admin/_metaboxContent.php:18
+msgid "Choose levels that can access this content"
+msgstr ""
+
+#: .././templates/admin/_metaboxContent.php:3
+msgid "Protect this "
+msgstr ""
+
+#: .././templates/admin/_metaboxContent.php:13
+msgid "Yes"
+msgstr ""
+
+#: .././templates/admin/_metaboxContent.php:14
+msgid "No"
+msgstr ""
+
+#: .././templates/admin/_orderList.php:10
+#: .././templates/admin/_orderList.php:13
+msgid "Search Transaction ID's"
+msgstr ""
+
+#: .././templates/admin/_orderList.php:17
+#: .././templates/admin/_userMenu.php:24
+msgid "items"
+msgstr ""
+
+#: .././templates/admin/_orderList.php:19
+#: .././templates/admin/_userMenu.php:26
+msgid "Go to the first page"
+msgstr ""
+
+#: .././templates/admin/_orderList.php:20
+#: .././templates/admin/_userMenu.php:27
+msgid "Go to the previous page"
+msgstr ""
+
+#: .././templates/admin/_orderList.php:22
+#: .././templates/admin/_userMenu.php:29
+msgid "Current page"
+msgstr ""
+
+#: .././templates/admin/_orderList.php:61
+#: .././templates/admin/_orderList.php:110
+#: .././templates/admin/_settingsMenu.php:259
+#: .././templates/admin/_settingsMenu.php:275
+msgid "Price"
+msgstr ""
+
+#: .././templates/admin/_orderList.php:73
+#: .././templates/admin/_orderList.php:122
+msgid "Order Status"
+msgstr ""
+
+#: .././templates/admin/_orderList.php:152
+msgid "N/A"
+msgstr ""
+
+#: .././templates/admin/_orderList.php:187
+#: .././templates/admin/_userMenu.php:189
+msgid "User Profile"
+msgstr ""
+
+#: .././templates/admin/_orderList.php:192
+#: .././templates/admin/_userMenu.php:194
+msgid "Display Name"
+msgstr ""
+
+#: .././templates/admin/_orderList.php:208
+#: .././templates/admin/_userMenu.php:210
+msgid "Website URL"
+msgstr ""
+
+#: .././templates/admin/_orderList.php:249
+#: .././templates/admin/_orderList.php:276
+#: .././templates/admin/_userMenu.php:256
+#: .././templates/admin/_userMenu.php:300
+#: .././templates/admin/_userMenu.php:318
+msgid "Cancel"
+msgstr ""
+
+#: .././templates/admin/_orderList.php:260
+msgid "Manage Access Levels"
+msgstr ""
+
+#: .././templates/admin/_orderList.php:261
+msgid ""
+"Check or uncheck to grant or remove access to each level. Expiration will be "
+"automatically determined based on level settings. Click expiration date to "
+"customize"
+msgstr ""
+
+#: .././templates/admin/_orderList.php:266
+#: .././templates/admin/_userMenu.php:290
+msgid "Level Name"
+msgstr ""
+
+#: .././templates/admin/_orderList.php:268
+#: .././templates/admin/_userMenu.php:292
+msgid "Expiration Date"
+msgstr ""
+
+#: .././templates/admin/_s3Settings.php:2
+msgid "Amazon S3 Configuration"
+msgstr ""
+
+#: .././templates/admin/_s3Settings.php:12
+msgid "S3 Credentials"
+msgstr ""
+
+#: .././templates/admin/_s3Settings.php:17
+msgid "Access Key ID"
+msgstr ""
+
+#: .././templates/admin/_s3Settings.php:21
+msgid "Secret Access Key"
+msgstr ""
+
+#: .././templates/admin/_s3Settings.php:25
+msgid "Bucket Name"
+msgstr ""
+
+#: .././templates/admin/_s3Settings.php:30
+msgid "Save S3 Settings"
+msgstr ""
+
+#: .././templates/admin/_s3Settings.php:43
+msgid "Amazon S3 Requirements"
+msgstr ""
+
+#: .././templates/admin/_s3Settings.php:45
+msgid ""
+"When using Amazon to host downloads, it is important that all downloads are "
+"in the same bucket, and that when adding a download URL, you use only the "
+"file name."
+msgstr ""
+
+#: .././templates/admin/_sendMail.php:2
+msgid "Messaging"
+msgstr ""
+
+#: .././templates/admin/_sendMail.php:8
+msgid "Send Message to User Group"
+msgstr ""
+
+#: .././templates/admin/_sendMail.php:20
+msgid "Send Mail"
+msgstr ""
+
+#: .././templates/admin/_sendMail.php:20
+msgid "Back"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:2
+#: .././templates/admin/_upgradePathways.php:2
+msgid "ID Commerce Settings"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:12
+msgid "Product Settings"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:14
+msgid "Create New Product"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:14
+msgid ""
+"To create a new product, leave <em>Edit Product</em> dropdown on <em>Choose "
+"Product</em>, then fill in all of your desired info."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:15
+#: .././templates/admin/_settingsMenu.php:39
+msgid "Product Price"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:15
+msgid ""
+"The price your customers will pay for this product. In the case of a <em>pay "
+"what you want</em> product, the price can be used to set a minimum. Set to 0 "
+"for a <em>free product</em>, and leave empty for products sold on a "
+"<em>donation model</em>."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:16
+msgid "Credit Value"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:16
+msgid ""
+"This is the Credit Price of the Product. If your product is available as a "
+"Download purchasable from the Dashboard, then your users will user their "
+"Credits to purchase this Product for this many Credits."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:17
+#: .././templates/admin/_settingsMenu.php:57
+msgid "Transaction Type"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:17
+msgid ""
+"Select <em>Order</em> if this is a regular transaction.  Select <em>Pre-"
+"Order</em> if you are taking pre-orders for this product and will charge all "
+"orders on a certain date in the future."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:18
+msgid "Product Types"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:18
+msgid ""
+"<em>Standard</em> Products expire in one year, <em>Recurring</em> Products "
+"automatically renew after defined set renewal period expires (unless "
+"cancelled). <em>Lifetime</em> Products never expire. <em>Donation</em> "
+"products offer pledge what you want with a minimum donation."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:19
+msgid "Payment Limits"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:19
+msgid ""
+"Stripe subscriptions can be set to cancel <em>automatically</em> after a set "
+"number of payments. Simply check to enable a <em>limit</em>, and enter the "
+"number of payments allowed."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:20
+msgid ""
+"If you have selected <em>Recurring</em> you will need to select a recurring "
+"length, and give it a Stripe Plan Name."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:21
+msgid "Renewals"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:21
+msgid ""
+"Enable renewals on standard products in order to allow customers to keep "
+"their licenses active so that they will not lose access once the one year "
+"term expires."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:22
+msgid "Licenses Per Download"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:22
+msgid ""
+"*Full Feature Coming Soon* This will limit Licenses for activation. -1 = "
+"Unlimited, 0 = 0 and 1 or higher is that number of activations available per "
+"licensed download."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:29
+msgid "Edit Product or Get Shortcode"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:43
+msgid "Product Type"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:46
+msgid "Donation"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:51
+#: .././templates/admin/_settingsMenu.php:254
+#: .././templates/admin/_settingsMenu.php:256
+#: .././templates/admin/_settingsMenu.php:258
+#: .././templates/admin/_settingsMenu.php:259
+#: .././templates/admin/_settingsMenu.php:260
+#: .././templates/admin/_settingsMenu.php:267
+#: .././templates/admin/_settingsMenu.php:271
+#: .././templates/admin/_settingsMenu.php:275
+#: .././templates/admin/_settingsMenu.php:279
+msgid "Credit"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:51
+msgid "Value"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:60
+msgid "Pre-Order"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:64
+msgid "License Type"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:66
+msgid "Standard"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:67
+msgid "Recurring"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:68
+msgid "Lifetime"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:72
+msgid "Recurring Type"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:74
+msgid "Weekly"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:75
+msgid "Monthly"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:76
+msgid "Annual"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:82
+msgid "Stripe Plan Name"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:82
+msgid "*can only be used once"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:90
+msgid "Limit Number of Payments"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:92
+msgid "Number of Payments"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:96
+msgid "Licenses per download"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:100
+msgid "Enable Renewals"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:103
+msgid "Renewal Price"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:107
+msgid "Enable Multiples"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:110
+msgid "Create Checkout Page"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:114
+msgid "Add a subscription?"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:117
+msgid "Select Recurring Product"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:128
+#: .././templates/admin/_settingsMenu.php:247
+#: .././templates/admin/_settingsMenu.php:289
+msgid "Create"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:129
+#: .././templates/admin/_settingsMenu.php:248
+#: .././templates/admin/_settingsMenu.php:290
+#: .././templates/admin/_settingsMenu.php:536
+msgid "Delete"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:135
+msgid "Download Settings"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:137
+msgid ""
+"Downloads are items you will be assigning to Products. These can be anything "
+"you want to link your Members to from their Dashboard. From here you can "
+"control the link, the image thumbnail location, the <em>more info</em> link, "
+"the documentation link, the dashboard postion - and a whole lot more."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:138
+msgid "Note"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:138
+msgid ""
+"Any time you update a Download here, the <em>Updated On:</em> message on the "
+"dashboard with change to the current date."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:139
+msgid "Create a Download"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:139
+msgid ""
+"To create a new Download, leave the <em>Edit Downloads</em> dropdown at "
+"<em>Choose Download</em>, and start filling out your information in the "
+"blank fields below. Be sure to select what Section your download will appear "
+"in, on the Dashboard, and what Products are allowed access to the Download."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:140
+#: .././templates/admin/_settingsMenu.php:163
+msgid "Download Name"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:140
+msgid ""
+"This will be the name of your Download, and will display on the Dashboard "
+"with this name."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:141
+#: .././templates/admin/_settingsMenu.php:167
+msgid "Button Text"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:141
+msgid ""
+"The text that be displayed on the button for this Download. This gives you "
+"creative liberty to say what you need to.  If you are linking to a page "
+"within your site, or to a PDF, or a Survey - you will want the button text "
+"to reflect this. Example: Finish the Survey"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:142
+#: .././templates/admin/_settingsMenu.php:171
+msgid "Download Version"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:142
+msgid ""
+"This can be left black if not needed.  If you use this, it will display to "
+"the right of your button text, inside the button.  Example: <em>Button Text</"
+"em> 1.5 "
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:143
+#: .././templates/admin/_settingsMenu.php:207
+msgid "Download Link"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:143
+msgid ""
+"This is the complete link that the button itself will direct to.  When using "
+"Amazon S3, you would only put the name of the download itself."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:144
+#: .././templates/admin/_settingsMenu.php:212
+msgid "Info Link"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:144
+msgid ""
+"This is the link that the <em>More Info</em> icon would link to.  This "
+"displays right by the button.  Leave blank to disable the <em>More Info</em> "
+"icon."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:145
+#: .././templates/admin/_settingsMenu.php:217
+msgid "Documentation Link"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:145
+msgid ""
+"This is the link that the <em>Documentation</em> icon would link to.  This "
+"displays right by the button.  Leave blank to disable the <em>Documentation</"
+"em> icon."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:146
+msgid "Image URL"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:146
+msgid ""
+"This is the link to the Image for your download - this image will display on "
+"the Dashboard, above the Button and Download Name."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:147
+msgid "Tip"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:147
+msgid ""
+"When creating images for your downloads, think about making them a "
+"consistent width and height between all of them, so their thumbnails look "
+"nice together."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:148
+msgid "Hide From Non-Members"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:148
+msgid ""
+"Check this box to hide this download from everyone except those that already "
+"own it."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:149
+#: .././templates/admin/_settingsMenu.php:178
+msgid "Host on S3"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:149
+msgid ""
+"If you have a download that is hosted on S#, and you have set up your Amazon "
+"S3 settings, check this box. Use the apprpriate file name in the Download "
+"Link field. "
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:150
+#: .././templates/admin/_settingsMenu.php:181
+msgid "Enable Dashboard Purchases"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:150
+msgid ""
+"If you would like Instant Checkout for this Download, check this box. From "
+"here, you will be able to select the Product this Download is assigned to. "
+"You can also use this for Add-Ons with your Crowdfunding Campaign, also "
+"selectable from here if IgnitionDeck Crowdfunding is installed."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:151
+#: .././templates/admin/_settingsMenu.php:239
+msgid "Enable Licensing"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:151
+msgid ""
+"Set to <em>Yes</em> in order to have this Download work with Licenses.  Must "
+"be assigned to a Product that has <em>Licenses Per Download</em> set."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:157
+msgid "Edit Downloads"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:175
+msgid "Hide from non-members"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:184
+msgid "Instant Checkout &amp; Renewal Product Assignment"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:191
+msgid "Instant Checkout Crowdfunding Assignment "
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:193
+msgid "Select Project"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:198
+msgid "Product Assignment"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:222
+msgid "Image"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:223
+msgid "Add Image"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:224
+msgid "Remove Image"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:231
+msgid "Dashboard Position"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:233
+msgid "A"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:234
+msgid "B"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:235
+msgid "C"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:254
+msgid "Settings"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:256
+msgid "can be used to purchase Products, if a Product has been given a <em>"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:257
+msgid "Create a "
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:257
+msgid "To create a new "
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:258
+msgid "The name of this "
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:259
+msgid "The value of this "
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:260
+#: .././templates/admin/_settingsMenu.php:279
+msgid "Count"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:260
+msgid "The amount of "
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:265
+msgid "Edit"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:267
+msgid "Choose"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:283
+msgid "Assign to Product"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:285
+msgid "None"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:303
+msgid "Dashboard Setup"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:305
+#: .././templates/admin/_settingsMenu.php:316
+msgid "Dashboard Page"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:305
+msgid ""
+"Save the location of your Member Dashboard to ensure that registration and "
+"dashboard menus function properly."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:306
+msgid "Sections"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:306
+msgid ""
+"You can name each Section, or leave blank if you wish. Be sure to select a "
+"<em>Layout Style</em> for each section."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:307
+#: .././templates/admin/_settingsMenu.php:386
+msgid "Dashboard Layout"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:307
+msgid ""
+"When you select a Dashboard Layout, be aware of what sections remain visible "
+"in your chosen Layout. The Sections come into play with <em>Downloads</em>, "
+"when you assign your Downloads to Sections of the Dashboard."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:308
+#: .././templates/admin/_settingsMenu.php:373
+msgid "Show IgnitionDeck Commerce Love"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:308
+msgid ""
+"This displays a small <em>Powered By IgnitionDeck Commerce</em> image below "
+"your Dashboard, with a link to the MemberDeck site.  You do not need to use "
+"this, but if you do, Thank you!"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:309
+msgid "Become an affiliate"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:309
+#, php-format
+msgid "to earn 25% commissions on all referrals"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:314
+msgid "Dashboard Settings"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:326
+msgid "Section A Name"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:342
+msgid "Section B Name"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:358
+msgid "Section C Name"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:377
+msgid "Affiliate Link"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:408
+msgid "General Settings"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:410
+#: .././templates/admin/_settingsMenu.php:421
+msgid "Receipt Settings"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:410
+msgid ""
+"This is the information used in your automatically generated receipts, that "
+"are sent to your members and customers."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:411
+#: .././templates/admin/_settingsMenu.php:438
+msgid "Enable Amazon S3"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:411
+msgid ""
+"If you would like your <em>Downloads</em>to be hosted with Amazon S3, check "
+"this box.  You will need to setup your Amazon S3 account in <em>S3 Settings</"
+"em> admin screen, available once this is activated."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:412
+msgid "Enable Creator Accounts"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:412
+msgid ""
+"You will only see this if IgnitionDeck Enterprise is activated.  Check this "
+"box to allow your site members to create their own Projects, using the "
+"IgnitionDeck Enterprise Front-End Submission feature."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:413
+#: .././templates/admin/_settingsMenu.php:455
+msgid "Terms on Checkout"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:413
+msgid ""
+"Checkbox to acknowledge Terms & Conditions + Privacy Policy on checkout. "
+"Required to proceed."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:418
+msgid "License Key"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:427
+msgid "Customer Service Email"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:430
+msgid "Platform Settings"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:433
+msgid "Disable WordPress Toolbar"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:444
+msgid "Enable Guest Checkout"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:449
+msgid "Enable Credits"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:450
+msgid "Global Currency is currently Virtual Currency ("
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:458
+msgid "Terms Page"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:460
+#: .././templates/admin/_settingsMenu.php:469
+msgid "Choose Page"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:467
+msgid "Privacy Page"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:477
+msgid "Assign Product on Registration"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:487
+msgid "Project Submission Privileges"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:490
+msgid "Admins Only"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:491
+msgid "Specific Members"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:492
+#: .././templates/admin/_userMenu.php:19
+msgid "All Members"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:498
+msgid "Require Opt-In"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:513
+msgid "Currency Settings"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:515
+msgid "Settings for the currency used by IDC"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:516
+#: .././templates/admin/_settingsMenu.php:522
+msgid "Global Currency"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:516
+msgid "The currency to be shared between IDC and IDCF"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:517
+msgid "Virtual Currency Label"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:517
+msgid "The label for the virtual currency to be used throughout IDC"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:527
+msgid "Virtual Currency Label (Singular)"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:531
+msgid "Virtual Currency Label (Plural)"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:535
+msgid "Update"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:542
+msgid "CRM Settings"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:544
+#: .././templates/admin/_settingsMenu.php:553
+msgid "Enable Shipping Info on Profile"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:544
+msgid ""
+"Check this box to display the Shipping Info fields on a users My Profile "
+"screen.  Use this when you need your members to be able to update their "
+"Shipping Info at any time."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:551
+msgid "Profile Settings"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:558
+msgid "Mailchimp Settings"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:572
+msgid "Enable Mailchimp?"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:577
+msgid "SendGrid Settings"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:579
+#: .././templates/admin/_settingsMenu.php:596
+msgid "account to start sending transactional email."
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:581
+msgid "Sendgrid Username"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:585
+msgid "Sendgrid Password"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:589
+msgid "Enable SendGrid? (Will replace default SMTP Settings)"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:594
+msgid "Mandrill Settings"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:600
+msgid "Mandrill API Key"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:604
+msgid "Enable Mandrill? (Will replace default SMTP Settings)"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:611
+msgid "Data Export"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:614
+msgid "Choose Product to Export"
+msgstr ""
+
+#: .././templates/admin/_settingsMenu.php:620
+msgid "Start Export"
+msgstr ""
+
+#: .././templates/admin/_stripeConnect.php:12
+msgid "Application Settings"
+msgstr ""
+
+#: .././templates/admin/_stripeConnect.php:17
+msgid "Production Client ID"
+msgstr ""
+
+#: .././templates/admin/_stripeConnect.php:23
+msgid "Development Client ID"
+msgstr ""
+
+#: .././templates/admin/_stripeConnect.php:44
+msgid "Button Style"
+msgstr ""
+
+#: .././templates/admin/_stripeConnect.php:46
+msgid "Blue on Light"
+msgstr ""
+
+#: .././templates/admin/_stripeConnect.php:47
+msgid "Blue on Dark"
+msgstr ""
+
+#: .././templates/admin/_stripeConnect.php:48
+msgid "Light on Light"
+msgstr ""
+
+#: .././templates/admin/_stripeConnect.php:49
+msgid "Light on Dark"
+msgstr ""
+
+#: .././templates/admin/_stripeConnect.php:58
+msgid "Enable Development Mode"
+msgstr ""
+
+#: .././templates/admin/_stripeConnect.php:72
+msgid ""
+"Use this option to revoke or clear credentials of Stripe connected users."
+msgstr ""
+
+#: .././templates/admin/_stripeConnect.php:73
+#: .././templates/admin/_stripeConnect.php:79
+msgid "Revoke Credentials"
+msgstr ""
+
+#: .././templates/admin/_stripeConnect.php:92
+msgid "Using Stripe Connect"
+msgstr ""
+
+#: .././templates/admin/_stripeConnect.php:94
+msgid ""
+"Stripe Connect enables site owners to process transactions via Stripe "
+"Connect user accounts, and if desired, to charge a fee for doing so."
+msgstr ""
+
+#: .././templates/admin/_stripeConnect.php:95
+msgid ""
+"In order to use <a href=\"https://stripe.com/connect\" target=\"_blank"
+"\">Stripe Connect</a>, you will need a <a href=\"http://stripe.com\" target="
+"\"_blank\">Stripe account</a> with an application created via the dashboard."
+msgstr ""
+
+#: .././templates/admin/_stripeConnect.php:96
+msgid ""
+"When creating your Stripe Connect application, ensure that your URL's "
+"display as follows: "
+msgstr ""
+
+#: .././templates/admin/_stripeConnect.php:97
+msgid ""
+"http://yourdomain.com/[dashboard-link]?"
+"payment_settings=1&ipn_handler=sc_return"
+msgstr ""
+
+#: .././templates/admin/_upgradePathways.php:12
+msgid "Upgrade Pathways"
+msgstr ""
+
+#: .././templates/admin/_upgradePathways.php:14
+msgid "Create Pathway"
+msgstr ""
+
+#: .././templates/admin/_upgradePathways.php:14
+msgid ""
+"To create a pathway, select a product from dropdown, then in the multi-"
+"select shown, select products to which the current product could be upgraded"
+msgstr ""
+
+#: .././templates/admin/_upgradePathways.php:20
+msgid "Edit pathway"
+msgstr ""
+
+#: .././templates/admin/_upgradePathways.php:22
+msgid "Choose Pathway"
+msgstr ""
+
+#: .././templates/admin/_upgradePathways.php:29
+msgid "Pathway name"
+msgstr ""
+
+#: .././templates/admin/_upgradePathways.php:36
+msgid "Select product upgrades"
+msgstr ""
+
+#: .././templates/admin/_upgradePathways.php:42
+msgid "Save Pathways"
+msgstr ""
+
+#: .././templates/admin/_upgradePathways.php:43
+msgid "Delete Pathways"
+msgstr ""
+
+#: .././templates/admin/_userMenu.php:10 .././templates/admin/_userMenu.php:12
+msgid "Search Members"
+msgstr ""
+
+#: .././templates/admin/_userMenu.php:12
+msgid "Search Level"
+msgstr ""
+
+#: .././templates/admin/_userMenu.php:53 .././templates/admin/_userMenu.php:90
+msgid "User Email"
+msgstr ""
+
+#: .././templates/admin/_userMenu.php:59
+msgid "Current Products"
+msgstr ""
+
+#: .././templates/admin/_userMenu.php:71
+#: .././templates/admin/_userMenu.php:108
+msgid "Registration Date"
+msgstr ""
+
+#: .././templates/admin/_userMenu.php:96
+msgid "Current Levels"
+msgstr ""
+
+#: .././templates/admin/_userMenu.php:251
+msgid "Block user purchases"
+msgstr ""
+
+#: .././templates/admin/_userMenu.php:266
+msgid "Manage a customer's active subscriptions"
+msgstr ""
+
+#: .././templates/admin/_userMenu.php:284
+msgid "Manage Products"
+msgstr ""
+
+#: .././templates/admin/_userMenu.php:285
+msgid ""
+"Check or uncheck to grant or remove access to each product. Expiration will "
+"be automatically determined based on product settings. Click expiration date "
+"to customize"
+msgstr ""
+
+#: .././templates/admin/_userMenu.php:308
+msgid "Manage User"
+msgstr ""
+
+#: .././templates/admin/_userMenu.php:311
+msgid "Manually add or remove "
+msgstr ""
+
+#: .././templates/admin/_userMenu.php:313
+msgid "Current"
+msgstr ""

@@ -1,0 +1,4 @@
+ wget -m ftp://earthwayscom@ftp.earth-ways.com/public_html/wp-content/plugins/idcommerce --ask-password -nH --cut-dirs=4 --exclude-directories=/public_html/wp-content/plugins/idcommerce/lib
+git add .
+git commit -m "$1"
+git push origin working

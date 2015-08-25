@@ -1,0 +1,469 @@
+/*
+ Theme Name:     Backer Child
+ Theme URI:      http://demo.krownthemes.com/backer/
+ Description:    A basic child theme for the Backer theme.
+ Author:         KrownThemes
+ Author URI:     http://krownthemes.com
+ Template:       backer
+ Version:        1.0
+*/
+
+@import url("../backer/style.css");
+
+/* --------------------------------------
+-----   Theme customization starts here   -----
+------------------------------------------*/
+
+body.home #page-title
+{ display: none;
+}
+
+#main-menu
+{ margin-top: 10px;
+}
+.top-menu > li > a {
+   font-size: 1.1em;
+   color: #6A6A6A;
+}
+.earthWays_backerTheme .top-menu li.green > a
+{ /*color: #686e4a;*/
+}
+
+article.krown-id-item figure
+{  height: 152px;
+   text-align: center;
+}
+article.krown-id-item figure img
+{  max-height: 152px; 
+}
+.krown-id-item .title
+{ color: #4a4a4a;
+}
+#payment_submit_button:disabled
+{ color:#aaaaaa;
+   opacity:0.2;
+}
+
+.earthWays_backerTheme #page-title .subtitle
+{ font-family: Ubuntu, sans-serif;
+  font-kerning: auto;
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-variant-ligatures: normal;
+  font-weight: 500;
+}
+
+header#page-title
+{ margin-bottom: 20px;
+}
+.earthWays_backerTheme ul.titles,
+.earthWays_backerTheme ul.titles li
+{ border: 0px;
+}
+.earthWays_backerTheme .krown-tabs .titles
+{ height: 45px;
+}
+.earthWays_backerTheme .krown-tabs .titles li
+{ height: 35px;
+}
+.earthWays_backerTheme .krown-tabs .titles li h5
+{ padding: 0px 40px !important;
+}
+.earthWays_backerTheme .krown-tabs .titles li.opened:hover
+{ background: #ececec;
+}
+.earthWays_backerTheme #project-container.krown-tabs .contents
+{ margin-top: 0px;
+  margin-bottom: 0px;
+  padding:10px;
+  background-color: rgb(235,235,235);
+}
+
+.earthWays_backerTheme .krown-tabs .contents > div
+{ padding: 0px;
+  
+}
+.earthWays_backerTheme #project-container .project-content
+{ padding: 0px;
+  padding-top: 10px;
+  background-color: none;
+}
+.earthWays_backerTheme #project-container .project-content > *:first-child
+{ 
+  margin-bottom: 0px;
+  background: white;
+  padding-left: 10px;
+}
+.earthWays_backerTheme #project-container .project-content > *:first-child > p
+{ /*display: none;*/
+}
+.share-buttons p 
+{ margin: 11px 10px 0px 0px;
+}
+.earthWays_backerTheme .ignitiondeck.id-creatorprofile 
+{ margin: 10px 0px 0px 0px;
+  padding: 0px;
+  background: white;
+  border: none;
+  border-width: 1px 0;
+}
+.earthWays_backerTheme .ignitiondeck.id-creatorprofile .id-creator-avatar
+{ padding: 10px;
+  background-color: rgb(245,245,245);
+  margin-right: 0px;
+}
+.earthWays_backerTheme .ignitiondeck.id-creatorprofile .id-creator-avatar img
+{ margin-right: 0px;
+}
+.earthWays_backerTheme .ignitiondeck.id-creatorprofile .id-creator-name
+{ margin-top: 10px;
+  margin-left: 10px;
+}
+.earthWays_backerTheme .ignitiondeck.id-creatorprofile .id-creator-location
+{ margin-left: 20px;
+}
+.earthWays_backerTheme .ignitiondeck.id-creatorprofile .id-creator-links
+{ margin-left: 20px;
+}
+.earthWays_backerTheme .topImageThingForProject,
+.earthWays_backerTheme #project-sidebar
+{ padding-top:0px;
+  margin-top: 0px;
+}
+.earthWays_backerTheme #project-container .project-content #longDescription
+{ margin-top: 10px;
+  background: white;
+  padding: 10px;
+}
+
+.earthWays_backerTheme #project-container #comments.project-content
+{ padding: 0px;
+  padding-top: 0px;
+  background-color: none;
+}
+
+input, .earthWays_backerTheme textarea
+{ background-color: #D7E68A;
+  color: #333;
+  margin-bottom: 0px;
+}
+input:focus, textarea:focus
+{ background-color: #E0CBF0;  
+}
+body *
+{ font-family: 'Ubuntu', sans-serif;
+}
+
+*::-webkit-input-placeholder {
+    color: #555;
+    text-shadow: 0px 0px 1px #666;
+    font-family: 'Ubuntu', sans-serif;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: #555;
+    text-shadow: 0px 0px 1px #666;
+    font-family: 'Ubuntu', sans-serif;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: #555;
+    text-shadow: 0px 0px 1px #666;
+    font-family: 'Ubuntu', sans-serif;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #555;
+    text-shadow: 0px 0px 1px #666;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+*::-webkit-input-placeholder:focus {
+    color: #555;
+    text-shadow: none;
+}
+*:-moz-placeholder :focus {
+    color: #555;
+    text-shadow: none;
+}
+*::-moz-placeholder :focus {
+    color: #555;
+    text-shadow: none;
+}
+*:-ms-input-placeholder :focus {
+    color: #555;
+    text-shadow: none;
+}
+
+page.page-id-1155 form label
+{ display: none;
+}
+
+/*home page stuff*/
+.ew-frontPageCTA
+{ width: 10%;
+  height: 10%;
+}
+
+/*metro stuff*/
+.anchorFiller
+{ width:  100%;
+  height: 100%;
+}
+
+.ew-op-green
+{ background-color: rgba(165, 198, 83, 0.7) !important;
+}
+
+.tile-label-span
+{ color: rgb(91, 110, 46);
+  padding: 4px;
+  background-color: rgba(255,255,255, 0.7);
+  border-radius: 4px;
+}
+.tile-container a, .tile-container a:visited, .tile a, .tile a:visited
+{ color: rgb(91, 110, 46);
+  color: black;
+}
+.tile-container a:hover, .tile a:hover
+{ color: black;
+}
+.ew-green
+{
+}
+
+/*Metro Header*/
+.logo-tile .image-container .frame
+{ background-color: transparent;
+}
+
+.top-menu > li
+{ margin-left: 25px;
+}
+
+#header .tile-area, #header .tile-group, #footer1 .tile-area, #footer1 .tile-group
+{ padding: 0px;
+  margin: 0px;
+}
+
+/*homePageSpecific*/
+body.home #main-menu li:not(.green)
+{ display:none;
+}
+body.home #logo
+{ display: none;}
+/* Not on the Home Page*/
+body:not(.home) #header div.tile-area
+{ display:none;
+}
+
+.showUnder1180
+{ display:none;
+}
+
+@media all and (max-width: 1180px)
+{ body:not(.home) #main-menu
+  { width: 600px;
+  }
+  body:not(.home) .top-menu > li
+  { margin-bottom: 10px;
+  }
+
+  .showOver1180
+  {display: none;
+  }
+  .showUnder1180
+  {display: block;
+  }
+}
+
+@media all and (max-width: 979px) 
+{ body.home #main-menu .top-menu 
+  { display: block !important;
+  }
+  body.home #main-menu .responsive-menu 
+  { display: none !important;
+  }
+  body:not(.home) #main-menu
+  { width: 0px;
+  }
+
+}
+
+.earthWays_backerTheme #footer1
+{ padding: 20px 20px;
+}
+@media all and (max-width: 600px)
+{ .earthWays_backerTheme #footer1
+  { padding: 20px 10px;
+  }
+}
+
+.earthWays_backerTheme a, .earthWays_backerTheme.footer .widget a:hover, .earthWays_backerTheme.footer .widget ul li.current-cat a:hover, .earthWays_backerTheme.footer .widget ul li.current_page_item a:hover, .earthWays_backerTheme.footer .krown-social a:hover i:before, .earthWays_backerTheme.no-touch .krown-tabs .titles li h5:hover a, .earthWays_backerTheme.no-touch #content .memberdeck .dashboardmenu li a:hover, .earthWays_backerTheme.poweredbyID a:hover, .earthWays_backerTheme#project-p-author .author-meta li, .earthWays_backerTheme#project-p-author .author-meta a, .earthWays_backerTheme.id-widget .icon-user:before, .earthWays_backerTheme.md-projects-list .buttons a:hover i, .earthWays_backerTheme.memberdeck .md-profile a i:hover, .earthWays_backerTheme.krown-id-item .container a:hover h3, .earthWays_backerTheme.ignitiondeck h2.id-product-title a:hover, .earthWays_backerTheme.ignitiondeck .id-backer-links a:hover, .earthWays_backerTheme.ignitiondeck.id-creatorprofile .id-creator-links a:hover:before, .earthWays_backerThemea.post-title:hover h2, .earthWays_backerThemea.post-title:hover h1, .earthWays_backerTheme.share-buttons a:hover, .earthWays_backerTheme.comment-title a:hover, .earthWays_backerTheme.comment-reply-link:hover, .earthWays_backerTheme.widget ul a:hover, .earthWays_backerTheme.widget .tagcloud a:hover, .earthWays_backerTheme.no-touch .krown-accordion h5:hover, .earthWays_backerTheme.posts-grid a:hover h3, .earthWays_backerTheme.krown-social li:hover:before, .earthWays_backerTheme.no-touch .krown-tabs .titles li:hover h5, .earthWays_backerTheme.krown-tabs .titles .opened h5, .earthWays_backerTheme.no-touch .memberdeck .dashboardmenu li:hover a, .earthWays_backerTheme.memberdeck .dashboardmenu li.active a, .earthWays_backerTheme.krown-twitter a:hover, .earthWays_backerTheme.rtitle, .earthWays_backerTheme.print-details .table a.receipt:hover, .earthWays_backerTheme.social-sharing-options-wrapper .friendlink .text a:hover, .earthWays_backerTheme.memberdeck form a:hover, .earthWays_backerTheme.memberdeck a:hover
+{ color: #686e4a;
+}
+.earthWays_backerTheme a:hover,.earthWays_backerTheme.footer .widget a:hover:hover,.earthWays_backerTheme.footer .widget ul li.current-cat a:hover:hover,.earthWays_backerTheme.footer .widget ul li.current_page_item a:hover:hover,.earthWays_backerTheme.footer .krown-social a:hover i:before:hover,.earthWays_backerTheme.no-touch .krown-tabs .titles li h5:hover a:hover,.earthWays_backerTheme.no-touch #content .memberdeck .dashboardmenu li a:hover:hover,.earthWays_backerTheme.poweredbyID a:hover:hover,.earthWays_backerTheme#project-p-author .author-meta li:hover,.earthWays_backerTheme#project-p-author .author-meta a:hover,.earthWays_backerTheme.id-widget .icon-user:before:hover,.earthWays_backerTheme.md-projects-list .buttons a:hover i:hover,.earthWays_backerTheme.memberdeck .md-profile a i:hover:hover,.earthWays_backerTheme.krown-id-item .container a:hover h3:hover,.earthWays_backerTheme.ignitiondeck h2.id-product-title a:hover:hover,.earthWays_backerTheme.ignitiondeck .id-backer-links a:hover:hover,.earthWays_backerTheme.ignitiondeck.id-creatorprofile .id-creator-links a:hover:before:hover,.earthWays_backerThemea.post-title:hover h2:hover,.earthWays_backerThemea.post-title:hover h1:hover,.earthWays_backerTheme.share-buttons a:hover:hover,.earthWays_backerTheme.comment-title a:hover:hover,.earthWays_backerTheme.comment-reply-link:hover:hover,.earthWays_backerTheme.widget ul a:hover:hover,.earthWays_backerTheme.widget .tagcloud a:hover:hover,.earthWays_backerTheme.no-touch .krown-accordion h5:hover:hover,.earthWays_backerTheme.posts-grid a:hover h3:hover,.earthWays_backerTheme.krown-social li:hover:before:hover,.earthWays_backerTheme.no-touch .krown-tabs .titles li:hover h5:hover,.earthWays_backerTheme.krown-tabs .titles .opened h5:hover,.earthWays_backerTheme.no-touch .memberdeck .dashboardmenu li:hover a:hover,.earthWays_backerTheme.memberdeck .dashboardmenu li.active a:hover,.earthWays_backerTheme.krown-twitter a:hover:hover,.earthWays_backerTheme.rtitle:hover,.earthWays_backerTheme.print-details .table a.receipt:hover:hover,.earthWays_backerTheme.social-sharing-options-wrapper .friendlink .text a:hover:hover,.earthWays_backerTheme.memberdeck form a:hover:hover,.earthWays_backerTheme.memberdeck a:hover
+{ color: #3b411c;
+}
+/*project grid*/
+/*.krown-id-item .meta 
+{  margin-top: -7px;
+  margin-bottom: -80px;
+}
+.krown-pie.small, .krown-pie.small .holder
+{ margin-top: -12px;
+}
+.krown-id-item ul
+{ text-align: right;
+  margin-top: 4px;
+}
+.krown-id-item .title
+{ height: 48px;
+}
+*/
+
+/*Front End Forms*/
+
+/*Dashboard*/
+.earthWays_backerTheme form input,
+.earthWays_backerTheme form textarea
+{ background-color: #e0e6c1 !important;
+  margin: 5px;
+}
+.earthWays_backerTheme .normal-content .ignitiondeck form input[type="submit"]
+{ background-color: #000 !important;
+  margin: 5px;
+}
+.earthWays_backerTheme .normal-content .ignitiondeck form input:hover[type="submit"]
+{ background-color: #e0e6c1 !important;
+  margin: 5px;
+}
+.earthWays_backerTheme .ignitiondeck form .form-row
+{ padding-left: 20px !important;
+  padding-right: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.earthWays_backerTheme .ignitiondeck form#fes li, 
+.earthWays_backerTheme .ignitiondeck form li
+{ padding-left: 20px !important;
+}
+.earthWays_backerTheme .ignitiondeck form#fes .form-row input:not([type="button"]), .earthWays_backerTheme .ignitiondeck form .form-row input:not([type="button"]), .earthWays_backerTheme .ignitiondeck form#fes .form-row textarea, .earthWays_backerTheme .ignitiondeck form .form-row textarea, .earthWays_backerTheme .ignitiondeck form#fes .form-row #project_faq, .earthWays_backerTheme .ignitiondeck form .form-row #project_faq, .earthWays_backerTheme .ignitiondeck form#fes .form-row #project_long_description, .earthWays_backerTheme .ignitiondeck form .form-row #project_long_description, .earthWays_backerTheme .ignitiondeck form#fes .form-row #project_level_1_long_description, .earthWays_backerTheme .ignitiondeck form .form-row #project_level_1_long_description, .earthWays_backerTheme .ignitiondeck form#fes .form-row #project_video, .earthWays_backerTheme .ignitiondeck form .form-row #project_video, .earthWays_backerTheme .ignitiondeck form#fes .form-row select, .earthWays_backerTheme .ignitiondeck form .form-row select
+{ padding: 8px;
+  color: #686e4a;
+}
+.earthWays_backerTheme .ignitiondeck form#fes .form-row label, .ignitiondeck form .form-row label
+{ color: #3b411c;
+}
+.earthWays_backerTheme .ignitiondeck form#fes #company_logo::-webkit-file-upload-button, .earthWays_backerTheme .ignitiondeck form #company_logo::-webkit-file-upload-button, .earthWays_backerTheme .ignitiondeck form#fes #project_hero::-webkit-file-upload-button, .earthWays_backerTheme .ignitiondeck form #project_hero::-webkit-file-upload-button, .earthWays_backerTheme .ignitiondeck form#fes #project_image2::-webkit-file-upload-button, .earthWays_backerTheme .ignitiondeck form #project_image2::-webkit-file-upload-button, .earthWays_backerTheme .ignitiondeck form#fes #project_image3::-webkit-file-upload-button, .earthWays_backerTheme .ignitiondeck form #project_image3::-webkit-file-upload-button, .earthWays_backerTheme .ignitiondeck form#fes #project_image4::-webkit-file-upload-button, .earthWays_backerTheme .ignitiondeck form #project_image4::-webkit-file-upload-button, .earthWays_backerTheme .ignitiondeck form#fes .form-row input[type="file"]::-webkit-file-upload-button, .earthWays_backerTheme .ignitiondeck form .form-row input[type="file"]::-webkit-file-upload-button
+{ color: #686e4a;
+  background-color: #e3e6d6;
+}
+.earthWays_backerTheme .ignitiondeck form#fes .form-row input[type="file"], .earthWays_backerTheme .ignitiondeck form .form-row input[type="file"]
+{ padding: 4px;
+}
+.earthWays_backerTheme .ignitiondeck form#fes .form-row input, .earthWays_backerTheme .ignitiondeck form .form-row input
+{ color: #3b411c;
+}
+.earthWays_backerTheme .ignitiondeck form#fes .form-row .idc-dropdown__select, .earthWays_backerTheme .ignitiondeck form .form-row .idc-dropdown__select, .earthWays_backerTheme .ignitiondeck form#fes .form-row.pretty_dropdown select, .earthWays_backerTheme .ignitiondeck form .form-row.pretty_dropdown select
+{ font-size: 13px;
+  background-color: #e0e6c1;
+}
+
+
+/*Account*/
+.earthWays_backerTheme input, .earthWays_backerTheme textarea, .earthWays_backerTheme select, .earthWays_backerTheme .memberdeck form .form-row input, .earthWays_backerTheme .memberdeck form .form-row textarea, .earthWays_backerTheme .memberdeck form .form-row select, .earthWays_backerTheme .ignitiondeck form .form-row input, .earthWays_backerTheme .ignitiondeck form .form-row textarea, .earthWays_backerTheme .ignitiondeck form .form-row select, .earthWays_backerTheme .wp-editor-container, .earthWays_backerTheme .md-requiredlogin form .input,
+.earthWays_backerTheme .memberdeck p.desc-note
+{ color: #3b411c;
+}
+.earthWays_backerTheme .krown-alert.success, .earthWays_backerTheme .memberdeck p.success, .earthWays_backerTheme .memberdeck .md-profile h2 + p, .earthWays_backerTheme .ignitiondeck .notification.green
+{ color: #3b411c;
+  background-color: #e3e6d6;
+}
+
+/*Orders*/
+.earthWays_backerTheme .memberdeck .md-box table th
+{ color: #686e4a;
+}
+.earthWays_backerTheme .memberdeck .md-box table td
+{ color: #3b411c;
+}
+
+/*Creator Profile*/
+.ignitiondeck.backer_profile .backer_info h3
+{ color: #3b411c;
+}
+
+/*Payment Account*/
+.earthWays_backerTheme .memberdeck .md-profile p,
+.earthWays_backerTheme form label, .earthWays_backerTheme  .memberdeck form .form-row label, .earthWays_backerTheme  .ignitiondeck form .form-row label,
+{ color: #3b411c;
+}
+
+/*pop up level form*/
+.earthWays_backerTheme .ignitiondeck form .form-row .idc-dropdown__select, .earthWays_backerTheme .ignitiondeck form .form-row.pretty_dropdown select
+{ background-color: #e0e6c1;
+}
+.earthWays_backerTheme .ignitiondeck form .form-row .idc-dropdown__select, .earthWays_backerTheme .ignitiondeck form .form-row.pretty_dropdown select, .earthWays_backerTheme .memberdeck form .form-row .idc-dropdown__select
+{ height: 38px;
+  padding: 4px;;
+}
+.earthWays_backerTheme input[type="submit"], .earthWays_backerTheme .memberdeck button, .earthWays_backerTheme .memberdeck input[type="submit"], .earthWays_backerTheme .memberdeck form .form-row input[type="submit"], .earthWays_backerTheme .memberdeck .button, .earthWays_backerTheme .ignitiondeck form .main-btn, .earthWays_backerTheme .ignitiondeck form input[type="submit"], .earthWays_backerTheme .ignitiondeck a.learn-more-button, .earthWays_backerTheme .ignitiondeck.idc_lightbox .form-row.submit input[type="submit"], .earthWays_backerTheme .md-requiredlogin #wp-submit
+{ color: #3b411c !important;
+}
+
+/*front end project page*/
+.earthWays_backerTheme .id-widget .id-level-desc
+{ color: #686e4a;
+}
+.earthWays_backerTheme .id-widget .id-level-desc:hover
+{ color: #3b411c;
+}
+.earthWays_backerTheme .krown-button.color
+{ background-color: #686e4a;
+}
+.earthWays_backerTheme .krown-button.color:hover
+{ background-color: #3b411c;
+}
+.earthWays_backerTheme .id-widget .id-product-funding, .earthWays_backerTheme  .id-widget .id-product-pledges, .earthWays_backerTheme  .id-widget .id-product-days-to-go, .earthWays_backerTheme .ignitiondeck.id-mini .id-product-days-to-go
+{ color: #3b411c;
+}
+
+/*Product Payment Page*/
+body.page-purchase-page header#page-title
+{ display: none;
+}
+.earthWays_backerTheme button[type="submit"].processing
+{ background-color: #e0e6c1;
+}
+.earthWays_backerTheme .checkout-wrapper .paymentDetailsForm
+{ max-width: 650px;
+  width: 75%;
+  margin: 0 auto;
+}
+.earthWays_backerTheme .memberdeck #payment-form
+{ max-width: none;
+  width: 100%;
+
+}
+.earthWays_backerTheme .finalDescPaymentWrapper,
+{ width: 90%;
+  margin: 0 auto;
+  text-align: center !important;
+}
+.earthWays_backerTheme .memberdeck form .finaldesc p
+{ text-align: center !important;
+}
+
+.earthWays_backerTheme .memberdeck .idc-terms-checkbox
+{ padding-top: 0px;
+}
+.earthWays_backerTheme .memberdeck form  .form-row
+{ margin-top: 0px;
+}
+.productPurchaseSubmitWrapper
+{ width: 200px;
+  margin: 0 auto;
+}
