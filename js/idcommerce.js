@@ -44,11 +44,11 @@ jQuery(document).ready(function() {
 	});
 	jQuery('.idc_button_submit').click(function(e) {
 		e.preventDefault();
-		var price = jQuery('input[name="price"]').val();
+		var price = parseFloat(jQuery('input[name="price"]').val());
 		var action = jQuery('form[name="idc_button_checkout_form"]').attr('action');
 		action = action + '?' + 'idc_button_submit=1' + '&price=' + price;
 		// Check that inputted price is greater than or equal to level price
-		if (jQuery('.idc-button-default-price').data('level-price') > price) {
+		if (parseFloat(jQuery('.idc-button-default-price').data('level-price')) > price) {
 			jQuery('.button-error-placeholder .payment-errors').show();
 			return false;
 		} else {
@@ -105,8 +105,8 @@ jQuery(document).ready(function() {
 			return claim_paypal;
 		}
 		var claim_paypal = claim_paypal();
-		var regPrice = jQuery('input[name="reg-price"]').val();
-		var pwywPrice = jQuery('input[name="pwyw-price"]').val();
+		var regPrice  = parseFloat(jQuery('input[name="reg-price"]').val());
+		var pwywPrice = parseFloat(parseFloat(jQuery('input[name="pwyw-price"]').val()));
 		var formattedPrice = jQuery(".product-price").text();
 		if (txnType == 'preauth') {
 			jQuery("#payment-form #pay-with-paypal").remove();
@@ -118,7 +118,7 @@ jQuery(document).ready(function() {
 			jQuery('#payment-form #pay-with-balanced').remove();
 			jQuery('#payment-form #pay-with-fd').remove();
 			jQuery('#payment-form #pay-with-mc').remove();
-			if (parseFloat(pwywPrice) >= 1 && parseFloat(regPrice) < parseFloat(pwywPrice)) {
+			if (pwywPrice >= 1 && regPrice < pwywPrice) {
 				jQuery('#pay-with-stripe').remove();
 			}
 			no_methods();
@@ -742,7 +742,7 @@ jQuery(document).ready(function() {
 		jQuery.each(fields.posts, function() {
 			queryString = queryString + '&' + this.name + '=' + this.value;
 		});
-		var pwywPrice = jQuery('input[name="pwyw-price"]').val();
+		var pwywPrice = parseFloat(parseFloat(jQuery('input[name="pwyw-price"]').val()));
 		if (jQuery("#id-main-submit").attr("name") == "submitPaymentStripe") {
 			jQuery(".payment-errors").text("");
 			jQuery("#id-main-submit").text("Processing...");
@@ -1172,10 +1172,10 @@ jQuery(document).ready(function() {
 				success: function(res) {
 					var json_level = JSON.parse(res);
 					var recPeriod = json_level.recurring_type;
-					var pwywPrice = jQuery('input[name="pwyw-price"]').val();
+					var pwywPrice = parseFloat(parseFloat(jQuery('input[name="pwyw-price"]').val()));
 					// If level is an upgrade, use the difference price
 					if (jQuery('[name="upgrade-level-price"]').length > 0) {
-						var level_price = jQuery('[name="upgrade-level-price"]').val();
+						var level_price = parseFloat(jQuery('[name="upgrade-level-price"]').val());
 					} else {
 						if (renewable) {
 							var level_price = json_level.renewal_price;
@@ -1278,7 +1278,7 @@ jQuery(document).ready(function() {
 			var pw = jQuery(".pw").val();
 			var cpw = jQuery(".cpw").val();
 			var pid = jQuery("#payment-form").data('product');
-			var pwywPrice = jQuery('input[name="pwyw-price"]').val();
+			var pwywPrice = parseFloat(parseFloat(jQuery('input[name="pwyw-price"]').val()));
 			jQuery.ajax({
 		    	url: memberdeck_ajaxurl,
 		    	type: 'POST',
@@ -1298,7 +1298,7 @@ jQuery(document).ready(function() {
 		    				jQuery('#buyform').attr('action', memberdeck_paypal);
 							// If level is an upgrade, use the difference price
 							if (jQuery('[name="upgrade-level-price"]').length > 0) {
-								var level_price = jQuery('[name="upgrade-level-price"]').val();
+								var level_price = parseFloat(jQuery('[name="upgrade-level-price"]').val());
 							} else {
 								if (renewable) {
 									var level_price = json.renewal_price;
@@ -1325,7 +1325,7 @@ jQuery(document).ready(function() {
 		    			else {
 		    				jQuery('#buyform').attr('action', memberdeck_paypal);
 							if (jQuery('[name="upgrade-level-price"]').length > 0) {
-								var level_price = jQuery('[name="upgrade-level-price"]').val();
+								var level_price = parseFloat(jQuery('[name="upgrade-level-price"]').val());
 							} else {
 								if (renewable) {
 									var level_price = json.renewal_price;
@@ -1354,7 +1354,7 @@ jQuery(document).ready(function() {
 		}
 	}
 	function stripeResponseHandler(status, response) {
-		var pwywPrice = jQuery('input[name="pwyw-price"]').val();
+		var pwywPrice = parseFloat(parseFloat(jQuery('input[name="pwyw-price"]').val()));
 		var extraFields = jQuery('#extra_fields input');
 		var fields = {'posts': {}};
 		jQuery.each(extraFields, function(x, y) {
@@ -1439,7 +1439,7 @@ jQuery(document).ready(function() {
 	    }
 	}
 	function balancedCallBack(response) {
-		var pwywPrice = jQuery('input[name="pwyw-price"]').val();
+		var pwywPrice = parseFloat(jQuery('input[name="pwyw-price"]').val());
 		var extraFields = jQuery('#extra_fields input');
 		var fields = {'posts': {}};
 		jQuery.each(extraFields, function(x, y) {
@@ -2227,3 +2227,10 @@ jQuery(document).ready(function() {
 		return !error;
 	});
 });
+
+/*
+TODO:
+1293 icdPayVars should contain user's email address
+1336, numbers are strings
+
+*/
