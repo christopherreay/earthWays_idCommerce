@@ -1,8 +1,10 @@
 <div class="memberdeck checkout-wrapper">
 	<div class="checkout-title-bar">
-    	<span class="active checkout-payment"><a href="#">Payment</a></span>
-        <span class="checkout-confirmation"><a href="#">Confirmation</a></span>
+    	<!-- <span class="active checkout-payment"><a href="#">Payment</a></span>
+        <span class="checkout-confirmation"><a href="#">Confirmation</a></span> 
         <span class="checkout-project-title"><?php echo wp_trim_words(isset($level_name) ? $level_name : '', $num_words = 3, $more = null); ?></span>
+      -->
+      <span class="checkout-project-title"><?php echo isset($level_name) ? $level_name : ''; ?></span>
         <span class="currency-symbol"><sup><?php echo $pp_symbol; ?></sup>
 			<span class="product-price"><?php echo (isset($level_price) ? apply_filters('idc_price_format', $level_price) : ''); ?></span>
            	<div class="checkout-tooltip"><i class="fa fa-info-circle"></i></div>
@@ -11,6 +13,7 @@
     <div class="tooltip-text">
         <?php include_once '_checkoutTooltip.php'; ?>
     </div>
+  <div class="paymentDetailsForm">
 	<form action="" method="POST" id="payment-form" data-currency-code="<?php echo $pp_currency; ?>" data-product="<?php echo (isset($product_id) ? $product_id : ''); ?>" data-type="<?php echo (isset($type) ? $type : ''); ?>" <?php echo (isset($type) && $type == 'recurring' ? 'data-recurring="'.$recurring.'"' : ''); ?> data-free="<?php echo ($level_price == 0 ? 'free' : 'premium'); ?>" data-txn-type="<?php echo (isset($txn_type) ? $txn_type : 'capture'); ?>" data-renewable="<?php echo (isset($renewable) ? $renewable : 0); ?>" data-limit-term="<?php echo (isset($type) && $type == 'recurring' ? $limit_term : 0); ?>" data-term-limit="<?php echo(isset($limit_term) && $limit_term ? $term_length : ''); ?>" data-scpk="<?php echo (isset($sc_pubkey) ? apply_filters('idc_sc_pubkey', $sc_pubkey) : ''); ?>" data-claimedpp="<?php echo (isset($claimed_paypal) ? apply_filters('idc_claimed_paypal', $claimed_paypal) : ''); ?>" <?php echo ($es == 1 || $eb == 1 ? 'style="display: none;"' : ''); ?> data-pay-by-credits="<?php echo ((isset($paybycrd) && $paybycrd == 1) ? '1' : '') ?>">
     <h3 class="checkout-header"><?php /* echo (isset($level_name) ? $level_name : ''); ?> <?php _e('Checkout', 'memberdeck'); */?> 
 			<?php _e('Select Payment Method', 'memberdeck'); ?></h3>
@@ -112,7 +115,7 @@
 							<input type="password" size="20" class="cpw required" name="cpw"/>
 						</div>
 					</div>
-				<?php } ?>
+				<?php do_action('oa_social_login'); } ?>
 			</div>
 		<?php }
 		else { ?>
@@ -132,7 +135,8 @@
 		</div>
 		<?php } ?>
         </div> <!-- confirm screen -->
-		<div id="stripe-input" data-idset="<?php echo (isset($instant_checkout) && $instant_checkout == true ? true : false); ?>" data-symbol="<?php echo (isset($stripe_symbol) ? $stripe_symbol : ''); ?>" data-customer-id="<?php echo ((isset($customer_id) && !empty($customer_id)) ? $customer_id : '') ?>" style="display:none;">
+		
+    <div id="stripe-input" data-idset="<?php echo (isset($instant_checkout) && $instant_checkout == true ? true : false); ?>" data-symbol="<?php echo (isset($stripe_symbol) ? $stripe_symbol : ''); ?>" data-customer-id="<?php echo ((isset($customer_id) && !empty($customer_id)) ? $customer_id : '') ?>" style="display:none;">
         	<div class="row">		
             	<h3 class="checkout-header"><?php _e('Credit Card Info', 'memberdeck'); ?></h3>
             </div>
@@ -150,7 +154,9 @@
 			</div>
 		</div>
 		
-		<?php echo apply_filters('idc_checkout_descriptions', '', $return, $level_price, (isset($user_data) ? $user_data : ''), $settings, $general); ?>
+		<div class="finalDescPaymentWrapper">
+      <?php echo apply_filters('idc_checkout_descriptions', '', $return, $level_price, (isset($user_data) ? $user_data : ''), $settings, $general); ?>
+    </div>
 		
 		<div><?php echo apply_filters('md_purchase_footer', ''); ?></div>
 		<span class="payment-errors"></span>
@@ -170,10 +176,13 @@
 		</div>
 		<?php } ?>
         <div class="main-submit-wrapper" style="display:none;">
-		<button type="submit" id="id-main-submit" class="submit-button"><?php _e('Submit Payment', 'memberdeck'); ?></button>
+          <div class="productPurchaseSubmitWrapper">
+		        <button type="submit" id="id-main-submit" class="submit-button"><?php _e('Submit Payment', 'memberdeck'); ?></button>
+          </div>
         </div>
        </div>
 	</form>
+</div>
 	<div class="md-requiredlogin login login-form" style="display: none;">
 		<h3 class="checkout-header"><?php _e('Login', 'memberdeck'); ?></h3>
 		<span class="login-help"><a href="#" class="hide-login"><?php _e('Need to register?', 'memberdeck'); ?></a></span>

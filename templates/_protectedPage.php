@@ -18,9 +18,12 @@
 		$durl = md_get_durl();
 		$args = array('redirect' => $durl,
 			'echo' => false);
-		echo wp_login_form($args); ?>
+		echo wp_login_form($args); 
+
+    ?>
 	<?php } 
 	do_action('idc_below_login_form');
+  do_action('oa_social_login');
 	?>
 	<p><a class="lostpassword" href="<?php echo site_url(); ?>/wp-login.php?action=lostpassword"><?php _e('Lost Password', 'memberdeck'); ?></a></p>
 </div>
