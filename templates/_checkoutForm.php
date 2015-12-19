@@ -7,7 +7,7 @@
       <span class="checkout-project-title"><?php echo isset($level_name) ? $level_name : ''; ?></span>
         <span class="currency-symbol"><sup><?php echo $pp_symbol; ?></sup>
 			<span class="product-price"><?php echo (isset($level_price) ? apply_filters('idc_price_format', $level_price) : ''); ?></span>
-           	<div class="checkout-tooltip"><i class="fa fa-info-circle"></i></div>
+           	
          </span>
     </div>
     <div class="tooltip-text">

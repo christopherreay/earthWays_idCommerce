@@ -12,7 +12,7 @@ var onlyStripe = (es === '1' && mc !== '1' && eb !== '1' && ecb !== '1' && epp !
 jQuery(document).ready(function() {
 	var error_class = 'error';
 	//tooltip checkoutform 
-	jQuery('.checkout-tooltip').hover(function(){
+	/*jQuery('.checkout-tooltip').hover(function(){
 		if (jQuery(this).hasClass("tooltip-active")) {
 			jQuery(this).removeClass('tooltip-active');
 			jQuery('.tooltip-text').css('max-height','0');
@@ -33,7 +33,7 @@ jQuery(document).ready(function() {
         jQuery('.tooltip-text').removeClass('tooltip-text-hover'); 
 		jQuery('.checkout-tooltip i').removeClass('tooltip-color');     
     });
-
+  */
 	// shortcode button stuff
 	jQuery('.idc_shortcode_button').click(function() {
 		var lbSource = jQuery(this).data('source');
