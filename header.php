@@ -43,7 +43,7 @@
     
 </head>
 
-<body id="body" <?php body_class( get_option( 'krown_sticky', 'regular-header' ) . ' no-touch ' . ( isset( $post ) ? get_post_meta( $post->ID, 'krown_page_layout', true ) : '' ) . ' no-js' . ' earthWays_backerTheme' ); ?>>
+<body id="body" <?php body_class( get_option( 'krown_sticky', 'regular-header' ) . ' no-touch ' . ( isset( $post ) ? get_post_meta( $post->ID, 'krown_page_layout', true ) : '' ) . ' no-js' . ' freeFreeCrowdfunding_backerTheme' ); ?>>
 
     <!-- Header Start -->
     <header id="header" class="clearfix">
