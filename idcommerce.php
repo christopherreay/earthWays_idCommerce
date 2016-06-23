@@ -1098,8 +1098,9 @@ function memberdeck_webhook_listener() {
 		            		// is a member, we need to push new data to their info table
 		            		if (isset($match_user->access_level)) {
 		            			$levels = unserialize($match_user->access_level);
-		            			foreach ($levels as $key['val']) {
-									$access_levels[] = absint($key['val']);
+                      error_log(print_r($levels, true));
+		            			foreach ($levels as $key => $val) {
+									$access_levels[] = absint($val);
 								}
 		            		}
 
