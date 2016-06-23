@@ -93,18 +93,18 @@ jQuery(document).ready(function() {
 		}
 		var cbCurSymbol = jQuery('#finaldescCoinbase').data('cb-symbol');
 		var txnType = jQuery("#payment-form").data('txn-type');
-		function scpk() {
-			var scpk = jQuery("#payment-form").data('scpk');
-			idcPayVars.scpk = scpk;
+		function Scpk() {
+			var SCPK = jQuery("#payment-form").data('scpk');
+			idcPayVars.scpk = SCPK;
 			return scpk;
 		}
-		var scpk = scpk();
-		function claim_paypal() {
-			var claim_paypal = jQuery("#payment-form").data('claimedpp');
-			idcPayVars.claim_paypal = claim_paypal;
+		var scpk = Scpk();
+		function Claim_paypal() {
+			var Claim_Paypal = jQuery("#payment-form").data('claimedpp');
+			idcPayVars.claim_paypal = Claim_Paypal;
 			return claim_paypal;
 		}
-		var claim_paypal = claim_paypal();
+		var claim_paypal = Claim_paypal();
 		var regPrice = jQuery('input[name="reg-price"]').val();
 		var pwywPrice = jQuery('input[name="pwyw-price"]').val();
 		var formattedPrice = jQuery(".product-price").text();
