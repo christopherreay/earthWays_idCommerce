@@ -1,18 +1,20 @@
 <div class="memberdeck checkout-wrapper">
 	<div class="checkout-title-bar">
+      <span class="checkout-project-title active checkout-payment"><a href="#">Payment</a></span>
+  </div>
+  <div class="checkout-title-bar">
     	<!-- <span class="active checkout-payment"><a href="#">Payment</a></span>
         <span class="checkout-confirmation"><a href="#">Confirmation</a></span> 
         <span class="checkout-project-title"><?php echo wp_trim_words(isset($level_name) ? $level_name : '', $num_words = 3, $more = null); ?></span>
       -->
       <span class="checkout-project-title"><?php echo isset($level_name) ? $level_name : ''; ?></span>
-        <span class="currency-symbol"><sup><?php echo $pp_symbol; ?></sup>
-			<span class="product-price"><?php echo (isset($level_price) ? apply_filters('idc_price_format', $level_price) : ''); ?></span>
-           	
-         </span>
-    </div>
-    <div class="tooltip-text">
-        <?php include_once '_checkoutTooltip.php'; ?>
-    </div>
+      <span class="currency-symbol"><sup><?php echo $pp_symbol; ?></sup>
+			 <span class="product-price"><?php echo (isset($level_price) ? apply_filters('idc_price_format', $level_price) : ''); ?></span>
+      </span>
+  </div>
+  <div class="checkout-title-bar">
+    <span class="checkout-project-title"><?php include_once '_checkoutTooltip.php'; ?></span>
+  </div>
   <div class="paymentDetailsForm">
 	<form action="" method="POST" id="payment-form" data-currency-code="<?php echo $pp_currency; ?>" data-product="<?php echo (isset($product_id) ? $product_id : ''); ?>" data-type="<?php echo (isset($type) ? $type : ''); ?>" <?php echo (isset($type) && $type == 'recurring' ? 'data-recurring="'.$recurring.'"' : ''); ?> data-free="<?php echo ($level_price == 0 ? 'free' : 'premium'); ?>" data-txn-type="<?php echo (isset($txn_type) ? $txn_type : 'capture'); ?>" data-renewable="<?php echo (isset($renewable) ? $renewable : 0); ?>" data-limit-term="<?php echo (isset($type) && $type == 'recurring' ? $limit_term : 0); ?>" data-term-limit="<?php echo(isset($limit_term) && $limit_term ? $term_length : ''); ?>" data-scpk="<?php echo (isset($sc_pubkey) ? apply_filters('idc_sc_pubkey', $sc_pubkey) : ''); ?>" data-claimedpp="<?php echo (isset($claimed_paypal) ? apply_filters('idc_claimed_paypal', $claimed_paypal) : ''); ?>" <?php echo ($es == 1 || $eb == 1 ? 'style="display: none;"' : ''); ?> data-pay-by-credits="<?php echo ((isset($paybycrd) && $paybycrd == 1) ? '1' : '') ?>">
     <h3 class="checkout-header"><?php /* echo (isset($level_name) ? $level_name : ''); ?> <?php _e('Checkout', 'memberdeck'); */?> 
@@ -169,8 +171,18 @@
         <?php if ($receipt_settings['show_terms'] == 1) { ?>
 		<div class="idc-terms-checkbox" style="display:none;">
 			<div class="form-row checklist">
-				<input type="checkbox" class="terms-checkbox-input required"/>
-				<label><?php _e('By checking this box, I agree to the', 'memberdeck'); ?> <span class="link-terms-conditions"><a href="#"><?php echo $terms_content->post_title; ?></a></span> &amp; <span class="link-privacy-policy"><a href="#"><?php echo $privacy_content->post_title; ?></a></span></label>
+				<input type="checkbox" id="tandc" class="terms-checkbox-input required" style="opacity: 0 !important;"/>
+				<label for="tandc"><?php _e('By checking this box, I agree to the', 'memberdeck'); ?>
+        </label>
+        <label for="tandc">
+          <span class="checkout-project-title link-terms-conditions">
+            <a href="#"><?php echo $terms_content->post_title; ?></a>
+          </span> 
+          &amp; 
+          <span class="link-privacy-policy">
+            <a href="#"><?php echo $privacy_content->post_title; ?></a>
+          </span>
+        </label>
 				<input type="hidden" id="idc-hdn-error-terms-privacy" value="<?php echo $terms_content->post_title; ?> &amp; <?php echo $privacy_content->post_title; ?>" />
 			</div>
 		</div>
